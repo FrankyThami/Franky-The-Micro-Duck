@@ -1,0 +1,57 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 2,
+  "n_s": 2,
+  "knowledge": [
+    {
+      "id": "K2",
+      "text": "Close beak succeeded when banana was 0.09m away and oriented 14 degrees left.",
+      "source": "scene 0, attempt 2",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-05 12:52:28"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S1",
+      "text": "To pick up, align banana across beak and center near tip before closing beak.",
+      "source": "scene 0, attempt 1",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-05 12:41:40"
+    },
+    {
+      "id": "S2",
+      "text": "To pick up, approach until banana is near beak tip, align across beak, then close beak.",
+      "source": "scene 0, attempt 2",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-05 12:52:28"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-05 12:41:27",
+      "success": false,
+      "scene": 0,
+      "attempt": 1,
+      "steps": 14,
+      "ended": "guard_loop"
+    },
+    {
+      "time": "2026-11-05 12:52:14",
+      "success": false,
+      "scene": 0,
+      "attempt": 2,
+      "steps": 31,
+      "ended": "guard_failures"
+    }
+  ]
+}

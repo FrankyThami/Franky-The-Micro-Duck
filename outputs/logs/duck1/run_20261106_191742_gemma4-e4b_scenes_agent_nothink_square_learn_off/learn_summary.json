@@ -1,0 +1,128 @@
+[
+  {
+    "scene": 13,
+    "name": "carry-start",
+    "attempts": 6,
+    "solved": false,
+    "solved_at": null,
+    "results": [
+      {
+        "success": false,
+        "steps": 22,
+        "ended": "no_tool_calls",
+        "failed_effects": 9,
+        "llm_s": 533.2,
+        "walks": 4,
+        "close_beaks": 1
+      },
+      {
+        "success": false,
+        "steps": 9,
+        "ended": "no_tool_calls",
+        "failed_effects": 3,
+        "llm_s": 219.0,
+        "walks": 1,
+        "close_beaks": 0
+      },
+      {
+        "success": false,
+        "steps": 14,
+        "ended": "no_tool_calls",
+        "failed_effects": 6,
+        "llm_s": 232.3,
+        "walks": 3,
+        "close_beaks": 0
+      },
+      {
+        "success": false,
+        "steps": 10,
+        "ended": "no_tool_calls",
+        "failed_effects": 5,
+        "llm_s": 152.1,
+        "walks": 1,
+        "close_beaks": 0
+      },
+      {
+        "success": false,
+        "steps": 10,
+        "ended": "guard_stalled",
+        "failed_effects": 6,
+        "llm_s": 185.2,
+        "walks": 0,
+        "close_beaks": 0
+      },
+      {
+        "success": false,
+        "steps": 38,
+        "ended": "max_steps",
+        "failed_effects": 15,
+        "llm_s": 701.4,
+        "walks": 5,
+        "close_beaks": 4
+      }
+    ]
+  },
+  {
+    "scene": 12,
+    "name": "close-start",
+    "attempts": 6,
+    "solved": true,
+    "solved_at": 6,
+    "results": [
+      {
+        "success": false,
+        "steps": 26,
+        "ended": "guard_stalled",
+        "failed_effects": 12,
+        "llm_s": 394.6,
+        "walks": 4,
+        "close_beaks": 1
+      },
+      {
+        "success": false,
+        "steps": 21,
+        "ended": "no_tool_calls",
+        "failed_effects": 8,
+        "llm_s": 297.3,
+        "walks": 5,
+        "close_beaks": 1
+      },
+      {
+        "success": false,
+        "steps": 25,
+        "ended": "done",
+        "failed_effects": 12,
+        "llm_s": 412.8,
+        "walks": 4,
+        "close_beaks": 2
+      },
+      {
+        "success": false,
+        "steps": 40,
+        "ended": "max_steps",
+        "failed_effects": 15,
+        "llm_s": 780.1,
+        "walks": 11,
+        "close_beaks": 3
+      },
+      {
+        "success": false,
+        "steps": 18,
+        "ended": "done",
+        "failed_effects": 6,
+        "llm_s": 250.4,
+        "walks": 3,
+        "close_beaks": 2
+      },
+      {
+        "success": true,
+        "steps": 22,
+        "ended": "done",
+        "failed_effects": 6,
+        "llm_s": 335.2,
+        "walks": 5,
+        "close_beaks": 1
+      }
+    ]
+  }
+]

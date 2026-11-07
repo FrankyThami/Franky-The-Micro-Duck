@@ -1,0 +1,7 @@
+{
+  "lessons": [
+    {"text": "If the weather report says rain, wear a raincoat when going outside.", "count": 3, "seq": 3},
+    {"text": "Before drinking tea, always wait until the cup is no longer too hot.", "count": 2, "seq": 2},
+    {"text": "If a book is due at the library, return it before the due date.", "count": 1, "seq": 1}
+  ]
+}

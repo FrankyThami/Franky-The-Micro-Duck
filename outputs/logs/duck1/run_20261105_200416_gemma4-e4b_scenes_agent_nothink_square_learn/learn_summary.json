@@ -1,0 +1,65 @@
+[
+  {
+    "scene": 12,
+    "name": "close-start",
+    "attempts": 6,
+    "solved": false,
+    "solved_at": null,
+    "results": [
+      {
+        "success": false,
+        "steps": 40,
+        "ended": "max_steps",
+        "failed_effects": 20,
+        "llm_s": 996.1,
+        "walks": 9,
+        "close_beaks": 4
+      },
+      {
+        "success": false,
+        "steps": 24,
+        "ended": "guard_loop",
+        "failed_effects": 10,
+        "llm_s": 697.8,
+        "walks": 6,
+        "close_beaks": 1
+      },
+      {
+        "success": false,
+        "steps": 28,
+        "ended": "done",
+        "failed_effects": 10,
+        "llm_s": 750.1,
+        "walks": 4,
+        "close_beaks": 2
+      },
+      {
+        "success": false,
+        "steps": 39,
+        "ended": "max_steps",
+        "failed_effects": 15,
+        "llm_s": 1165.5,
+        "walks": 8,
+        "close_beaks": 4
+      },
+      {
+        "success": false,
+        "steps": 38,
+        "ended": "max_steps",
+        "failed_effects": 16,
+        "llm_s": 1096.7,
+        "walks": 9,
+        "close_beaks": 2
+      },
+      {
+        "success": false,
+        "steps": 21,
+        "ended": "done",
+        "failed_effects": 5,
+        "llm_s": 603.5,
+        "walks": 3,
+        "close_beaks": 2
+      }
+    ]
+  }
+]

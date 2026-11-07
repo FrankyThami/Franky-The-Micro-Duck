@@ -1,0 +1,1 @@
+﻿run_id,episode,scene,model,command,success,claimed_done,false_claim,ended,steps,first_tool,tool_counts,failed_effects,loop_flags,unexpected_events,refusals,stops,measures,measures_on_object,finds,guard_actions,done_rejected,no_tool_calls,llm_s,prompt_tokens,gen_tokens,sim_s,wall_s,final_dist_banana_to_box

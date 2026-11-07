@@ -1,0 +1,14 @@
+{
+  "0": {
+    "name": "easy-left",
+    "banana": [
+      0.2,
+      0.12
+    ],
+    "box": [
+      0.2,
+      -0.2
+    ],
+    "note": "like the usual random seeds"
+  }
+}

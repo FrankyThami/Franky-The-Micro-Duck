@@ -1,0 +1,211 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 11,
+  "n_s": 8,
+  "knowledge": [
+    {
+      "id": "K2",
+      "text": "Safety system refuses walks or turns that move the body too close to the table edge.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 4,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-06 21:59:35"
+    },
+    {
+      "id": "K3",
+      "text": "The pick_up tool is unknown; gripping must be attempted using close_beak.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 4,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-06 21:59:35"
+    },
+    {
+      "id": "K4",
+      "text": "Walk commands are imprecise; asking for 0.25 m forward resulted in 0.24 m forward, and 0 degrees turn resulted in 8 degrees left.",
+      "source": "scene 13, attempt 2",
+      "seen": 1,
+      "tries": 3,
+      "wins": 0,
+      "order": 4,
+      "added": "2026-11-06 22:07:46"
+    },
+    {
+      "id": "K5",
+      "text": "The vision model can return no match for an object even if it is present on the table.",
+      "source": "scene 13, attempt 2",
+      "seen": 2,
+      "tries": 3,
+      "wins": 0,
+      "order": 5,
+      "added": "2026-11-06 22:07:46"
+    },
+    {
+      "id": "K6",
+      "text": "open_beak successfully releases items held in the beak.",
+      "source": "scene 13, attempt 2",
+      "seen": 1,
+      "tries": 3,
+      "wins": 0,
+      "order": 6,
+      "added": "2026-11-06 22:07:46"
+    },
+    {
+      "id": "K7",
+      "text": "The safety system refuses walks that would take the body too close to the table edge (e.g., Step 13, Step 17).",
+      "source": "scene 13, attempt 3",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 7,
+      "added": "2026-11-06 22:19:32"
+    },
+    {
+      "id": "K8",
+      "text": "Calling close_beak() when the banana is already held results in no change (Step 16).",
+      "source": "scene 13, attempt 3",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 8,
+      "added": "2026-11-06 22:19:32"
+    },
+    {
+      "id": "K9",
+      "text": "Vision model finds objects nearby but cannot confirm if one object is contained within another.",
+      "source": "scene 13, attempt 4",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 9,
+      "added": "2026-11-06 22:36:44"
+    },
+    {
+      "id": "K10",
+      "text": "Repeated calls to find() for 'green box' or 'box' returned no match (Steps 2, 4, 7), indicating the vision model cannot locate the target.",
+      "source": "scene 13, attempt 5",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 10,
+      "added": "2026-11-06 22:43:37"
+    },
+    {
+      "id": "K11",
+      "text": "The system allowed the final done() call (Step 10) even though the task was not completed (Step 8).",
+      "source": "scene 13, attempt 5",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 11,
+      "added": "2026-11-06 22:43:37"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S3",
+      "text": "When moving, account for slight deviations in distance and direction from the requested command.",
+      "source": "scene 13, attempt 2",
+      "seen": 1,
+      "tries": 3,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-06 22:07:46"
+    },
+    {
+      "id": "S4",
+      "text": "If find fails, attempt the search again, as the object may be present but undetected.",
+      "source": "scene 13, attempt 2",
+      "seen": 2,
+      "tries": 3,
+      "wins": 0,
+      "order": 4,
+      "added": "2026-11-06 22:07:46"
+    },
+    {
+      "id": "S5",
+      "text": "When moving, plan movements cautiously to avoid triggering the safety refusal near the edge (S3).",
+      "source": "scene 13, attempt 3",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 5,
+      "added": "2026-11-06 22:19:32"
+    },
+    {
+      "id": "S6",
+      "text": "To place an item, ensure the beak is positioned directly over the target object before opening the beak.",
+      "source": "scene 13, attempt 4",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 6,
+      "added": "2026-11-06 22:36:44"
+    },
+    {
+      "id": "S7",
+      "text": "If the target object cannot be located by the vision model, do not assume the task is complete.",
+      "source": "scene 13, attempt 5",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 7,
+      "added": "2026-11-06 22:43:37"
+    },
+    {
+      "id": "S8",
+      "text": "If the vision model fails to find the target, do not rely on the assumption that it is visible.",
+      "source": "scene 13, attempt 5",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 8,
+      "added": "2026-11-06 22:43:37"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-06 21:56:16",
+      "success": false,
+      "scene": 13,
+      "attempt": 1,
+      "steps": 31,
+      "ended": "guard_failures"
+    },
+    {
+      "time": "2026-11-06 22:04:48",
+      "success": false,
+      "scene": 13,
+      "attempt": 2,
+      "steps": 12,
+      "ended": "no_tool_calls"
+    },
+    {
+      "time": "2026-11-06 22:16:33",
+      "success": false,
+      "scene": 13,
+      "attempt": 3,
+      "steps": 18,
+      "ended": "guard_loop"
+    },
+    {
+      "time": "2026-11-06 22:33:27",
+      "success": false,
+      "scene": 13,
+      "attempt": 4,
+      "steps": 30,
+      "ended": "done"
+    },
+    {
+      "time": "2026-11-06 22:40:34",
+      "success": false,
+      "scene": 13,
+      "attempt": 5,
+      "steps": 10,
+      "ended": "done"
+    }
+  ]
+}

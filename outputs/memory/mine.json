@@ -1,0 +1,6 @@
+{
+  "lessons": [
+    {"text": "After you pick the banana, walk to the green box before you place it.", "count": 2, "seq": 2},
+    {"text": "If a pick fails because the banana is not in reach, walk to the banana again and then pick.", "count": 1, "seq": 1}
+  ]
+}

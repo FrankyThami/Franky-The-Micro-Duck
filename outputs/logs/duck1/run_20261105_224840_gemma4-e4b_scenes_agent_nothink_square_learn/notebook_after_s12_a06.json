@@ -1,0 +1,251 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 20,
+  "n_s": 12,
+  "knowledge": [
+    {
+      "id": "K1",
+      "text": "The harness will stop the attempt if 10 consecutive tool calls change nothing.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 9,
+      "wins": 1,
+      "order": 1,
+      "added": "2026-11-05 22:58:23"
+    },
+    {
+      "id": "K2",
+      "text": "The vision model returned no box in multiple pictures, including #2, #4, #8, #10, #12, #14, #16, #18, #21, #24, and #27.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 9,
+      "wins": 1,
+      "order": 2,
+      "added": "2026-11-05 22:58:23"
+    },
+    {
+      "id": "K3",
+      "text": "Walking forward 0.3 m was refused due to proximity to the table edge.",
+      "source": "scene 13, attempt 2",
+      "seen": 1,
+      "tries": 8,
+      "wins": 1,
+      "order": 3,
+      "added": "2026-11-05 23:07:48"
+    },
+    {
+      "id": "K5",
+      "text": "Movements are not exact; requested parameters (e.g., 0.1m forward, 45 degrees turn) result in actual movements that deviate (e.g., 0.13m forward, 42 degrees turn).",
+      "source": "scene 13, attempt 3",
+      "seen": 1,
+      "tries": 7,
+      "wins": 1,
+      "order": 5,
+      "added": "2026-11-05 23:18:30"
+    },
+    {
+      "id": "K6",
+      "text": "The harness stops the attempt after 10 consecutive tool calls that result in no change in the world.",
+      "source": "scene 13, attempt 3",
+      "seen": 2,
+      "tries": 7,
+      "wins": 1,
+      "order": 6,
+      "added": "2026-11-05 23:18:30"
+    },
+    {
+      "id": "K16",
+      "text": "The camera measurement tool cannot provide data for spots that fall outside the visible area (e.g., grey padding).",
+      "source": "scene 12, attempt 3",
+      "seen": 1,
+      "tries": 3,
+      "wins": 0,
+      "order": 16,
+      "added": "2026-11-06 00:04:41"
+    },
+    {
+      "id": "K17",
+      "text": "The beak successfully picks up the banana if its middle is within 0.07 m of the tip and its long side is within 30 degrees across.",
+      "source": "scene 12, attempt 3",
+      "seen": 2,
+      "tries": 3,
+      "wins": 0,
+      "order": 17,
+      "added": "2026-11-06 00:04:41"
+    },
+    {
+      "id": "K18",
+      "text": "The vision model frequently fails to find the green box, even when it is visible on the table.",
+      "source": "scene 12, attempt 4",
+      "seen": 2,
+      "tries": 2,
+      "wins": 0,
+      "order": 18,
+      "added": "2026-11-06 00:14:50"
+    },
+    {
+      "id": "K19",
+      "text": "The beak successfully releases the object when open_beak() is called.",
+      "source": "scene 12, attempt 4",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 19,
+      "added": "2026-11-06 00:14:50"
+    },
+    {
+      "id": "K20",
+      "text": "Movement is refused if it would take the robot too close to the table edge.",
+      "source": "scene 12, attempt 5",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 20,
+      "added": "2026-11-06 00:31:03"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S2",
+      "text": "To change direction, use the walk tool and specify the turn angle, as there is no dedicated 'turn' tool.",
+      "source": "scene 13, attempt 3",
+      "seen": 1,
+      "tries": 7,
+      "wins": 1,
+      "order": 2,
+      "added": "2026-11-05 23:18:30"
+    },
+    {
+      "id": "S8",
+      "text": "Use very small movements when near the box, as movement may stop early or be refused by the rim.",
+      "source": "scene 12, attempt 2",
+      "seen": 1,
+      "tries": 4,
+      "wins": 0,
+      "order": 8,
+      "added": "2026-11-05 23:52:29"
+    },
+    {
+      "id": "S9",
+      "text": "When measuring, confirm the target spot is within the camera's visible area to ensure accurate data is returned.",
+      "source": "scene 12, attempt 3",
+      "seen": 1,
+      "tries": 3,
+      "wins": 0,
+      "order": 9,
+      "added": "2026-11-06 00:04:41"
+    },
+    {
+      "id": "S10",
+      "text": "If the target is invisible, do not repeat the search immediately; instead, move toward the last known location.",
+      "source": "scene 12, attempt 4",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 10,
+      "added": "2026-11-06 00:14:50"
+    },
+    {
+      "id": "S11",
+      "text": "When the vision model fails to find the target, assume the object was dropped near the last known location.",
+      "source": "scene 12, attempt 4",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 11,
+      "added": "2026-11-06 00:14:50"
+    },
+    {
+      "id": "S12",
+      "text": "To pick up the banana, ensure its middle is within 7 cm of the beak tip and its long side is within 30 degrees across.",
+      "source": "scene 12, attempt 5",
+      "seen": 2,
+      "tries": 1,
+      "wins": 0,
+      "order": 12,
+      "added": "2026-11-06 00:31:03"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-05 22:55:46",
+      "success": false,
+      "scene": 13,
+      "attempt": 1,
+      "steps": 27,
+      "ended": "guard_stalled"
+    },
+    {
+      "time": "2026-11-05 23:05:02",
+      "success": false,
+      "scene": 13,
+      "attempt": 2,
+      "steps": 26,
+      "ended": "done"
+    },
+    {
+      "time": "2026-11-05 23:15:31",
+      "success": false,
+      "scene": 13,
+      "attempt": 3,
+      "steps": 28,
+      "ended": "guard_stalled"
+    },
+    {
+      "time": "2026-11-05 23:23:35",
+      "success": true,
+      "scene": 13,
+      "attempt": 4,
+      "steps": 20,
+      "ended": "done"
+    },
+    {
+      "time": "2026-11-05 23:34:00",
+      "success": false,
+      "scene": 12,
+      "attempt": 1,
+      "steps": 22,
+      "ended": "no_tool_calls"
+    },
+    {
+      "time": "2026-11-05 23:49:25",
+      "success": false,
+      "scene": 12,
+      "attempt": 2,
+      "steps": 36,
+      "ended": "guard_stalled"
+    },
+    {
+      "time": "2026-11-06 00:01:29",
+      "success": false,
+      "scene": 12,
+      "attempt": 3,
+      "steps": 25,
+      "ended": "guard_stalled"
+    },
+    {
+      "time": "2026-11-06 00:11:45",
+      "success": false,
+      "scene": 12,
+      "attempt": 4,
+      "steps": 22,
+      "ended": "guard_stalled"
+    },
+    {
+      "time": "2026-11-06 00:27:14",
+      "success": false,
+      "scene": 12,
+      "attempt": 5,
+      "steps": 38,
+      "ended": "max_steps"
+    },
+    {
+      "time": "2026-11-06 00:41:11",
+      "success": false,
+      "scene": 12,
+      "attempt": 6,
+      "steps": 32,
+      "ended": "no_tool_calls"
+    }
+  ]
+}

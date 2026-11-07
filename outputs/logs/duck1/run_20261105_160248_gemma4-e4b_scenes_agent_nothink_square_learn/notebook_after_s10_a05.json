@@ -1,0 +1,211 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 13,
+  "n_s": 8,
+  "knowledge": [
+    {
+      "id": "K2",
+      "text": "Walking forward 0.2 m (Step 20) was refused because it would run into the box rim.",
+      "source": "scene 10, attempt 1",
+      "seen": 1,
+      "tries": 4,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-05 16:16:37"
+    },
+    {
+      "id": "K3",
+      "text": "Moving and turning does not guarantee the target objects will be visible in subsequent pictures (Steps 17, 19, 22).",
+      "source": "scene 10, attempt 1",
+      "seen": 1,
+      "tries": 4,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-05 16:16:37"
+    },
+    {
+      "id": "K5",
+      "text": "Walking stops if an object is detected right at the feet (Step 11).",
+      "source": "scene 10, attempt 2",
+      "seen": 2,
+      "tries": 3,
+      "wins": 0,
+      "order": 5,
+      "added": "2026-11-05 16:24:22"
+    },
+    {
+      "id": "K6",
+      "text": "The vision model may fail to find objects, even if they were previously located (Step 14).",
+      "source": "scene 10, attempt 2",
+      "seen": 1,
+      "tries": 3,
+      "wins": 0,
+      "order": 6,
+      "added": "2026-11-05 16:24:22"
+    },
+    {
+      "id": "K7",
+      "text": "Walking commands sometimes result in unexpected turns (e.g., moving forward 0.30 m resulted in a 7 degree left turn).",
+      "source": "scene 10, attempt 3",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 7,
+      "added": "2026-11-05 16:43:45"
+    },
+    {
+      "id": "K9",
+      "text": "Pickup failed even when the banana was within the 0.10 m range (Step 16, 21).",
+      "source": "scene 10, attempt 4",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 9,
+      "added": "2026-11-05 16:55:58"
+    },
+    {
+      "id": "K10",
+      "text": "The banana's orientation matters; in a failed pickup (Step 16), its long side pointed +66 degrees from the direction faced.",
+      "source": "scene 10, attempt 4",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 10,
+      "added": "2026-11-05 16:55:58"
+    },
+    {
+      "id": "K11",
+      "text": "Measurement fails if the target is outside the camera's visible range (e.g., y > 875).",
+      "source": "scene 10, attempt 5",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 11,
+      "added": "2026-11-05 17:14:47"
+    },
+    {
+      "id": "K12",
+      "text": "The vision model may fail to locate a target, even if it is physically present in the scene.",
+      "source": "scene 10, attempt 5",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 12,
+      "added": "2026-11-05 17:14:47"
+    },
+    {
+      "id": "K13",
+      "text": "Pickup requires the banana's long side to be aligned across the beak (close to 0 degrees) for success.",
+      "source": "scene 10, attempt 5",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 13,
+      "added": "2026-11-05 17:14:47"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S3",
+      "text": "If approaching an object, check if walking stops early due to proximity.",
+      "source": "scene 10, attempt 2",
+      "seen": 1,
+      "tries": 3,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-05 16:24:22"
+    },
+    {
+      "id": "S4",
+      "text": "When searching for objects, assume they might be temporarily invisible after movement.",
+      "source": "scene 10, attempt 2",
+      "seen": 1,
+      "tries": 3,
+      "wins": 0,
+      "order": 4,
+      "added": "2026-11-05 16:24:22"
+    },
+    {
+      "id": "S5",
+      "text": "Before attempting pickup, confirm the target object is aligned with the direction of approach.",
+      "source": "scene 10, attempt 3",
+      "seen": 2,
+      "tries": 2,
+      "wins": 0,
+      "order": 5,
+      "added": "2026-11-05 16:43:45"
+    },
+    {
+      "id": "S6",
+      "text": "After any movement, always re-scan the area to confirm the visibility of all target objects.",
+      "source": "scene 10, attempt 3",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 6,
+      "added": "2026-11-05 16:43:45"
+    },
+    {
+      "id": "S7",
+      "text": "If movement stops early, re-scan the area immediately to confirm the target object's visibility.",
+      "source": "scene 10, attempt 4",
+      "seen": 2,
+      "tries": 1,
+      "wins": 0,
+      "order": 7,
+      "added": "2026-11-05 16:55:58"
+    },
+    {
+      "id": "S8",
+      "text": "If a target is not visible, change orientation to bring it into view before searching again.",
+      "source": "scene 10, attempt 5",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 8,
+      "added": "2026-11-05 17:14:47"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-05 16:13:31",
+      "success": false,
+      "scene": 10,
+      "attempt": 1,
+      "steps": 32,
+      "ended": "done"
+    },
+    {
+      "time": "2026-11-05 16:21:27",
+      "success": false,
+      "scene": 10,
+      "attempt": 2,
+      "steps": 15,
+      "ended": "no_tool_calls"
+    },
+    {
+      "time": "2026-11-05 16:39:30",
+      "success": false,
+      "scene": 10,
+      "attempt": 3,
+      "steps": 39,
+      "ended": "max_steps"
+    },
+    {
+      "time": "2026-11-05 16:53:23",
+      "success": false,
+      "scene": 10,
+      "attempt": 4,
+      "steps": 25,
+      "ended": "no_tool_calls"
+    },
+    {
+      "time": "2026-11-05 17:10:58",
+      "success": false,
+      "scene": 10,
+      "attempt": 5,
+      "steps": 37,
+      "ended": "no_tool_calls"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "scene": 0,
+    "name": "easy-left",
+    "attempts": 4,
+    "solved": false,
+    "solved_at": null,
+    "results": [
+      {
+        "success": false,
+        "steps": 14,
+        "ended": "guard_loop",
+        "failed_effects": 9,
+        "llm_s": 230.9,
+        "walks": 3,
+        "close_beaks": 2
+      },
+      {
+        "success": false,
+        "steps": 31,
+        "ended": "guard_failures",
+        "failed_effects": 12,
+        "llm_s": 606.0,
+        "walks": 5,
+        "close_beaks": 3
+      },
+      {
+        "success": false,
+        "steps": 36,
+        "ended": "guard_failures",
+        "failed_effects": 12,
+        "llm_s": 742.6,
+        "walks": 7,
+        "close_beaks": 5
+      },
+      {
+        "success": false,
+        "steps": 28,
+        "ended": "guard_failures",
+        "failed_effects": 12,
+        "llm_s": 636.5,
+        "walks": 5,
+        "close_beaks": 3
+      }
+    ]
+  }
+]

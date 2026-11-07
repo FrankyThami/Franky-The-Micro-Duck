@@ -1,0 +1,20 @@
+[
+  {
+    "scene": 10,
+    "name": "across-left",
+    "attempts": 1,
+    "solved": true,
+    "solved_at": 1,
+    "results": [
+      {
+        "success": true,
+        "steps": 16,
+        "ended": "done",
+        "failed_effects": 3,
+        "llm_s": 347.5,
+        "walks": 5,
+        "close_beaks": 2
+      }
+    ]
+  }
+]

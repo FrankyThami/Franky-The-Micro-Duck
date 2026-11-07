@@ -1,0 +1,127 @@
+{
+  "0": {
+    "name": "easy-left",
+    "banana": [
+      0.2,
+      0.12
+    ],
+    "box": [
+      0.2,
+      -0.2
+    ],
+    "note": "like the usual random seeds"
+  },
+  "1": {
+    "name": "easy-right",
+    "banana": [
+      0.15,
+      -0.15
+    ],
+    "box": [
+      0.22,
+      0.22
+    ],
+    "note": "mirror image of scene 0"
+  },
+  "2": {
+    "name": "beside-box",
+    "banana": [
+      0.2,
+      0.0
+    ],
+    "box": [
+      0.2,
+      0.18
+    ],
+    "note": "banana right next to the tray"
+  },
+  "3": {
+    "name": "far-ahead",
+    "banana": [
+      0.4,
+      0.0
+    ],
+    "box": [
+      0.3,
+      -0.28
+    ],
+    "note": "long first walk"
+  },
+  "4": {
+    "name": "wide-apart",
+    "banana": [
+      0.1,
+      0.38
+    ],
+    "box": [
+      0.1,
+      -0.38
+    ],
+    "note": "far left banana, far right box"
+  },
+  "5": {
+    "name": "underfoot",
+    "banana": [
+      -0.36,
+      0.0
+    ],
+    "box": [
+      0.2,
+      -0.2
+    ],
+    "note": "HARD: banana only 4 cm in front of the feet"
+  },
+  "6": {
+    "name": "banana-behind",
+    "banana": [
+      -0.25,
+      0.22
+    ],
+    "box": [
+      0.25,
+      -0.15
+    ],
+    "duck": [
+      0.0,
+      0.0
+    ],
+    "yaw": 0.0,
+    "note": "duck starts in the middle, banana is behind-left"
+  },
+  "7": {
+    "name": "box-behind",
+    "banana": [
+      0.25,
+      0.15
+    ],
+    "box": [
+      -0.2,
+      -0.2
+    ],
+    "note": "the tray is back near the start"
+  },
+  "8": {
+    "name": "long-carry",
+    "banana": [
+      0.38,
+      -0.3
+    ],
+    "box": [
+      -0.05,
+      0.3
+    ],
+    "note": "carry the banana across the table"
+  },
+  "9": {
+    "name": "front-edge",
+    "banana": [
+      0.46,
+      0.05
+    ],
+    "box": [
+      0.2,
+      -0.2
+    ],
+    "note": "banana 14 cm from the table edge"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "run_id": "run_20261104_215555_eye-rules2_scenes2_eye",
+  "episodes": 10,
+  "successes": 10,
+  "false_claims": 0,
+  "blue_box_mistakes": 0,
+  "missed_goals": 1,
+  "mean_steps": 6.7,
+  "mean_llm_s": 0.0,
+  "mean_sim_s": 35.1
+}

@@ -1,0 +1,66 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 4,
+  "n_s": 1,
+  "knowledge": [
+    {
+      "id": "K1",
+      "text": "The harness will stop the attempt if 10 consecutive tool calls change nothing.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-05 22:58:23"
+    },
+    {
+      "id": "K2",
+      "text": "The vision model returned no box in multiple pictures, including #2, #4, #8, #10, #12, #14, #16, #18, #21, #24, and #27.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-05 22:58:23"
+    },
+    {
+      "id": "K3",
+      "text": "Walking forward 0.3 m was refused due to proximity to the table edge.",
+      "source": "scene 13, attempt 2",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-05 23:07:48"
+    },
+    {
+      "id": "K4",
+      "text": "For successful pickup, the object's middle must be near the beak tip, and its long side must be close to perpendicular to the direction faced.",
+      "source": "scene 13, attempt 2",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 4,
+      "added": "2026-11-05 23:07:48"
+    }
+  ],
+  "skills": [],
+  "history": [
+    {
+      "time": "2026-11-05 22:55:46",
+      "success": false,
+      "scene": 13,
+      "attempt": 1,
+      "steps": 27,
+      "ended": "guard_stalled"
+    },
+    {
+      "time": "2026-11-05 23:05:02",
+      "success": false,
+      "scene": 13,
+      "attempt": 2,
+      "steps": 26,
+      "ended": "done"
+    }
+  ]
+}

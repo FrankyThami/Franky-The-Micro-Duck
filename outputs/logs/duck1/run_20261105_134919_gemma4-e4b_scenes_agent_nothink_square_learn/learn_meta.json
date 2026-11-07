@@ -1,0 +1,18 @@
+{
+  "attempts": 6,
+  "need": 1,
+  "on_fail": "stop",
+  "learning": "on",
+  "feedback": "on",
+  "notebook": "D:\\MicroDuck Robot\\outputs\\memory\\franky_notebook.json",
+  "notebook_at_start": {
+    "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+    "n_k": 0,
+    "n_s": 0,
+    "knowledge": [],
+    "skills": [],
+    "history": []
+  },
+  "reflection_system_prompt": "You are Franky, a small duck robot. You keep a notebook. After each attempt at a command you read the log of what you did and write down what you learned, so that your next attempts go better, also in other scenes. Your notes are short, concrete and honest: you only write what the log shows.",
+  "reflection_format": "Think it through before you write: (1) what did you expect each action to do, and what did it really do? Use the numbers in the log. (2) If the beak closed more than once, compare the closes: what was different, in the numbers, between a close that took the banana and the ones that did not? (3) Which of your own notes, or of your notebook lines, does the log contradict?\nThen update your notebook. Reply with note lines only, in these forms:\nLEARNED: a fact you found out about your body, your tools or the world, with numbers if you have them.\nSKILL: a way of doing something that worked, or that you now think would work, written as short instructions to yourself.\nFORGET: the ids (like K2 or S1) of notebook lines that this log shows to be wrong.\nRules: at most 3 LEARNED lines and 2 SKILL lines, each at most 40 words. A note must stay useful when the banana and the box lie somewhere else on the table, so write what you learned about your body, your tools and your own mistakes, not where things were. When an action failed, write the reason the log shows for it (use the numbers that came back), not only that it failed. Do not write a reason that the numbers in the log do not show. Do not write again what your notebook already says. Only write what the log supports. If you learned nothing new, write the single word NOTHING."
+}

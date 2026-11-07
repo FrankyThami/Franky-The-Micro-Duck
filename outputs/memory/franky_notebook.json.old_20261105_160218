@@ -1,0 +1,219 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 14,
+  "n_s": 10,
+  "knowledge": [
+    {
+      "id": "K5",
+      "text": "Pickup fails if the banana is behind the beak tip (e.g., 0.02m behind in attempt 28).",
+      "source": "scene 0, attempt 2",
+      "seen": 2,
+      "tries": 4,
+      "wins": 0,
+      "order": 5,
+      "added": "2026-11-05 14:16:48"
+    },
+    {
+      "id": "K6",
+      "text": "The banana's long side orientation is consistently angled away from the direction faced (e.g., -16 degrees in attempt 38).",
+      "source": "scene 0, attempt 2",
+      "seen": 1,
+      "tries": 4,
+      "wins": 0,
+      "order": 6,
+      "added": "2026-11-05 14:16:48"
+    },
+    {
+      "id": "K7",
+      "text": "System issues a warning if the last 5 tool calls resulted in no movement or successful pickup.",
+      "source": "scene 0, attempt 3",
+      "seen": 1,
+      "tries": 3,
+      "wins": 0,
+      "order": 7,
+      "added": "2026-11-05 14:34:25"
+    },
+    {
+      "id": "K8",
+      "text": "Beak closure fails if the sensor reports the banana is more than 0.10 m from the beak tip, even when visually close (e.g., 0.19 m).",
+      "source": "scene 0, attempt 3",
+      "seen": 2,
+      "tries": 3,
+      "wins": 0,
+      "order": 8,
+      "added": "2026-11-05 14:34:25"
+    },
+    {
+      "id": "K9",
+      "text": "Movement commands are not perfectly precise; requesting 0.10 m forward sometimes results in slightly less distance (e.g., attempt 29: 0.09 m).",
+      "source": "scene 0, attempt 4",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 9,
+      "added": "2026-11-05 14:51:38"
+    },
+    {
+      "id": "K10",
+      "text": "The system refuses movement if the requested path would run into the box rim (Attempt 22).",
+      "source": "scene 0, attempt 5",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 10,
+      "added": "2026-11-05 15:10:12"
+    },
+    {
+      "id": "K11",
+      "text": "Requested forward movement (0.1m) can result in significantly less distance (0.03m in Attempt 25).",
+      "source": "scene 0, attempt 5",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 11,
+      "added": "2026-11-05 15:10:12"
+    },
+    {
+      "id": "K12",
+      "text": "The vision model may fail to locate objects (Attempt 24) even when they are visually present.",
+      "source": "scene 0, attempt 5",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 12,
+      "added": "2026-11-05 15:10:12"
+    },
+    {
+      "id": "K13",
+      "text": "Pickup failures occur even when the banana is within the 0.10m range (e.g., 0.07 m in attempt 22).",
+      "source": "scene 0, attempt 6",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 13,
+      "added": "2026-11-05 15:28:25"
+    },
+    {
+      "id": "K14",
+      "text": "Movement commands may stop if an object is right at the duck's feet (e.g., attempt 25, 31, 33).",
+      "source": "scene 0, attempt 6",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 14,
+      "added": "2026-11-05 15:28:25"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S5",
+      "text": "Use turns of 30 degrees or more when attempting alignment on the spot, as small turns are imprecise.",
+      "source": "scene 0, attempt 3",
+      "seen": 1,
+      "tries": 3,
+      "wins": 0,
+      "order": 5,
+      "added": "2026-11-05 14:34:25"
+    },
+    {
+      "id": "S6",
+      "text": "After moving, always re-run find(what='yellow banana and green box') to confirm the objects' current relative positions.",
+      "source": "scene 0, attempt 4",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 6,
+      "added": "2026-11-05 14:51:38"
+    },
+    {
+      "id": "S7",
+      "text": "Use turns of 30 degrees or more for alignment, as small turns are imprecise (Confirmed by Attempt 28).",
+      "source": "scene 0, attempt 5",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 7,
+      "added": "2026-11-05 15:10:12"
+    },
+    {
+      "id": "S8",
+      "text": "Before walking near the box, check for safety refusals to avoid running into the rim.",
+      "source": "scene 0, attempt 5",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 8,
+      "added": "2026-11-05 15:10:12"
+    },
+    {
+      "id": "S9",
+      "text": "Before closing beak, ensure the banana is slightly ahead of the beak tip (0.00m or positive ahead).",
+      "source": "scene 0, attempt 6",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 9,
+      "added": "2026-11-05 15:28:25"
+    },
+    {
+      "id": "S10",
+      "text": "Use small incremental walks (S4) to achieve precise alignment, as larger movements caused unexpected stops (e.g., 0.12m in attempt 25).",
+      "source": "scene 0, attempt 6",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 10,
+      "added": "2026-11-05 15:28:25"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-05 13:57:48",
+      "success": false,
+      "scene": 0,
+      "attempt": 1,
+      "steps": 25,
+      "ended": "guard_loop"
+    },
+    {
+      "time": "2026-11-05 14:13:58",
+      "success": false,
+      "scene": 0,
+      "attempt": 2,
+      "steps": 38,
+      "ended": "max_steps"
+    },
+    {
+      "time": "2026-11-05 14:31:27",
+      "success": false,
+      "scene": 0,
+      "attempt": 3,
+      "steps": 40,
+      "ended": "max_steps"
+    },
+    {
+      "time": "2026-11-05 14:48:27",
+      "success": false,
+      "scene": 0,
+      "attempt": 4,
+      "steps": 40,
+      "ended": "max_steps"
+    },
+    {
+      "time": "2026-11-05 15:06:22",
+      "success": false,
+      "scene": 0,
+      "attempt": 5,
+      "steps": 38,
+      "ended": "max_steps"
+    },
+    {
+      "time": "2026-11-05 15:25:11",
+      "success": false,
+      "scene": 0,
+      "attempt": 6,
+      "steps": 36,
+      "ended": "guard_failures"
+    }
+  ]
+}

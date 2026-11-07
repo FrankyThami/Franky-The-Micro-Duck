@@ -1,0 +1,13 @@
+﻿scene,scene_name,attempt,success,steps,ended,walks,turns,close_beaks,finds,failed_effects,llm_s,wall_s,notes_shown,reflect_s,reflect_mode,added,merged,forgotten,evicted,rejected,verdict
+13,carry-start,1,False,22,no_tool_calls,4,0,1,9,9,533.2,547.6,,,,,,,,,The person says: the banana is NOT in the green box. You are still holding the banana.
+13,carry-start,2,False,9,no_tool_calls,1,0,0,4,3,219.0,221.5,,,,,,,,,The person says: the banana is NOT in the green box. You are still holding the banana.
+13,carry-start,3,False,14,no_tool_calls,3,1,0,5,6,232.3,238.0,,,,,,,,,The person says: the banana is NOT in the green box. You are still holding the banana.
+13,carry-start,4,False,10,no_tool_calls,1,0,0,5,5,152.1,154.7,,,,,,,,,The person says: the banana is NOT in the green box. You are still holding the banana.
+13,carry-start,5,False,10,guard_stalled,0,0,0,4,6,185.2,185.3,,,,,,,,,The person says: the banana is NOT in the green box. You are still holding the banana.
+13,carry-start,6,False,38,max_steps,5,4,4,13,15,701.4,732.6,,,,,,,,,The person says: the banana is NOT in the green box. The banana lies on the table.
+12,close-start,1,False,26,guard_stalled,4,0,1,13,12,394.6,404.8,,,,,,,,,The person says: the banana is NOT in the green box. The banana lies on the table.
+12,close-start,2,False,21,no_tool_calls,5,0,1,8,8,297.3,308.6,,,,,,,,,The person says: the banana is NOT in the green box. You are still holding the banana.
+12,close-start,3,False,25,done,4,0,2,11,12,412.8,428.1,,,,,,,,,"The person says: the banana is NOT in the green box. The banana lies on the table. You said you had finished, but you ha"
+12,close-start,4,False,40,max_steps,11,4,3,12,15,780.1,812.8,,,,,,,,,The person says: the banana is NOT in the green box. The banana fell off the table.
+12,close-start,5,False,18,done,3,1,2,4,6,250.4,267.5,,,,,,,,,"The person says: the banana is NOT in the green box. The banana lies on the table. You said you had finished, but you ha"
+12,close-start,6,True,22,done,5,2,1,7,6,335.2,363.0,,,,,,,,,The person says: the banana is in the green box. The command is completed.

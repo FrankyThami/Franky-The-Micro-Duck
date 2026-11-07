@@ -1,0 +1,13 @@
+{
+  "run_id": "run_20261104_151205_gemma4-e2b_scenes_eye",
+  "episodes": 10,
+  "successes": 10,
+  "success_rate": 1.0,
+  "false_claims": 0,
+  "missed_goals": 0,
+  "loop_flags": 0,
+  "guard_actions": 0,
+  "mean_steps": 6.2,
+  "mean_llm_s": 16.5,
+  "mean_sim_s": 29.3
+}

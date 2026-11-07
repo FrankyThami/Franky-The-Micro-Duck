@@ -1,0 +1,209 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 13,
+  "n_s": 7,
+  "knowledge": [
+    {
+      "id": "K2",
+      "text": "The vision model may fail to find the green box after the initial detection, returning \"no box.",
+      "source": "scene 12, attempt 1",
+      "seen": 1,
+      "tries": 5,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-05 20:25:12"
+    },
+    {
+      "id": "K3",
+      "text": "The task is incomplete if the green box cannot be visually located after picking up the banana.",
+      "source": "scene 12, attempt 1",
+      "seen": 1,
+      "tries": 5,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-05 20:25:12"
+    },
+    {
+      "id": "K4",
+      "text": "Successful pickup occurs when the banana's middle is within 0.07m of the beak tip.",
+      "source": "scene 12, attempt 2",
+      "seen": 2,
+      "tries": 4,
+      "wins": 0,
+      "order": 4,
+      "added": "2026-11-05 20:39:36"
+    },
+    {
+      "id": "K6",
+      "text": "The vision model frequently fails to find the banana (e.g., Step 16, 17, 21, 24, 27) even when it is visible in the picture.",
+      "source": "scene 12, attempt 3",
+      "seen": 1,
+      "tries": 3,
+      "wins": 0,
+      "order": 6,
+      "added": "2026-11-05 20:56:09"
+    },
+    {
+      "id": "K7",
+      "text": "The system requires an explicit done() command, even if the task is not completed.",
+      "source": "scene 12, attempt 3",
+      "seen": 2,
+      "tries": 3,
+      "wins": 0,
+      "order": 7,
+      "added": "2026-11-05 20:56:09"
+    },
+    {
+      "id": "K9",
+      "text": "The vision model often returns \"no box\" even when the box is present in the scene.",
+      "source": "scene 12, attempt 4",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 9,
+      "added": "2026-11-05 21:19:26"
+    },
+    {
+      "id": "K10",
+      "text": "Walking too close to the table edge is blocked by a safety system.",
+      "source": "scene 12, attempt 4",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 10,
+      "added": "2026-11-05 21:19:26"
+    },
+    {
+      "id": "K12",
+      "text": "The banana can fall off the table after being picked up.",
+      "source": "scene 12, attempt 5",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 12,
+      "added": "2026-11-05 21:41:16"
+    },
+    {
+      "id": "K13",
+      "text": "Successful pickup requires the banana's middle to be within 7cm and its long side within 30 degrees of alignment.",
+      "source": "scene 12, attempt 6",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 13,
+      "added": "2026-11-05 21:54:50"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S2",
+      "text": "If the green box is not found, keep searching for it until it is located or the command is explicitly finished.",
+      "source": "scene 12, attempt 1",
+      "seen": 1,
+      "tries": 5,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-05 20:25:12"
+    },
+    {
+      "id": "S3",
+      "text": "To pick up the banana, align it so its middle is within 7cm and its long side is within 30 degrees of being across the beak.",
+      "source": "scene 12, attempt 2",
+      "seen": 3,
+      "tries": 4,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-05 20:39:36"
+    },
+    {
+      "id": "S4",
+      "text": "If the vision model fails to find an object, continue searching or assume it is present if movement suggests proximity.",
+      "source": "scene 12, attempt 3",
+      "seen": 1,
+      "tries": 3,
+      "wins": 0,
+      "order": 4,
+      "added": "2026-11-05 20:56:09"
+    },
+    {
+      "id": "S5",
+      "text": "To pick up the banana, ensure its middle is within 7cm of the beak tip, as the angle requirement is less strict.",
+      "source": "scene 12, attempt 4",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 5,
+      "added": "2026-11-05 21:19:26"
+    },
+    {
+      "id": "S6",
+      "text": "If the vision model fails to locate the target, continue searching or move cautiously, respecting safety boundaries.",
+      "source": "scene 12, attempt 4",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 6,
+      "added": "2026-11-05 21:19:26"
+    },
+    {
+      "id": "S7",
+      "text": "When placing the banana, move cautiously toward the target object before opening the beak.",
+      "source": "scene 12, attempt 6",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 7,
+      "added": "2026-11-05 21:54:50"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-05 20:21:38",
+      "success": false,
+      "scene": 12,
+      "attempt": 1,
+      "steps": 40,
+      "ended": "max_steps"
+    },
+    {
+      "time": "2026-11-05 20:37:14",
+      "success": false,
+      "scene": 12,
+      "attempt": 2,
+      "steps": 24,
+      "ended": "guard_loop"
+    },
+    {
+      "time": "2026-11-05 20:52:23",
+      "success": false,
+      "scene": 12,
+      "attempt": 3,
+      "steps": 28,
+      "ended": "done"
+    },
+    {
+      "time": "2026-11-05 21:16:11",
+      "success": false,
+      "scene": 12,
+      "attempt": 4,
+      "steps": 39,
+      "ended": "max_steps"
+    },
+    {
+      "time": "2026-11-05 21:38:16",
+      "success": false,
+      "scene": 12,
+      "attempt": 5,
+      "steps": 38,
+      "ended": "max_steps"
+    },
+    {
+      "time": "2026-11-05 21:51:42",
+      "success": false,
+      "scene": 12,
+      "attempt": 6,
+      "steps": 21,
+      "ended": "done"
+    }
+  ]
+}

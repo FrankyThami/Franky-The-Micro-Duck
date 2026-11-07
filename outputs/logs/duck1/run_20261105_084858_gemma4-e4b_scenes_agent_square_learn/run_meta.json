@@ -1,0 +1,238 @@
+{
+  "run_id": "run_20261105_084858_gemma4-e4b_scenes_agent_square_learn",
+  "started": "2026-11-05T08:48:58",
+  "command_line": "duck1\\learn.py --view",
+  "agent": "autonomous Franky: look / find / measure / walk / close_beak / open_beak / done, real camera pictures, no recipe, no rule brain",
+  "find": "on",
+  "box_order": "yxyx",
+  "pad_square": "on",
+  "task_command": "Pick up the banana and put it into the green box.",
+  "scenes": [
+    0
+  ],
+  "max_steps": 40,
+  "guard": "on",
+  "kick_after": 0,
+  "guard_limits": {
+    "max_failed_steps": 12,
+    "max_sim_s": 300.0,
+    "max_done_rejects": 2,
+    "stall_warn_after": 5,
+    "stall_stop_after": 10
+  },
+  "brain": "GemmaBrain",
+  "llm": {
+    "model": "gemma4:e4b",
+    "num_ctx": 8192,
+    "think": true,
+    "num_predict": 2048,
+    "temperature": 0.3,
+    "top_p": 0.95,
+    "top_k": 64,
+    "seed": 0,
+    "keep_images": 1,
+    "max_groups": 40
+  },
+  "ollama": {
+    "ollama_version": "0.40.14",
+    "model_digest": "dc35e8d9c6061baa6f0fa870975ab6932e2542b579b13ea0f199fa4bb7300c9c",
+    "model_size_bytes": 6583656505,
+    "model_details": {
+      "parent_model": "gemma4-validation-20260929:e4b-imatrix-attention-q6-q8-draft2",
+      "format": "gguf",
+      "family": "gemma4",
+      "families": [
+        "gemma4"
+      ],
+      "parameter_size": "7.5B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 131072,
+      "embedding_length": 2560,
+      "runner": "llamacpp"
+    }
+  },
+  "software": {
+    "python": "3.12.8",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "mujoco": "3.17.0",
+    "onnxruntime": "1.31.1",
+    "numpy": "2.0.0"
+  },
+  "code_hashes": {
+    "franky_tools.py": "a558aa82768a",
+    "gemma_brain.py": "9b250873ab41",
+    "agent_loop.py": "014a9ef5d588",
+    "referee.py": "67cf12f5648f",
+    "motion.py": "695f5ccac55f",
+    "head_camera.py": "4a7018108027",
+    "duck_sim.py": "9175ef2356d3",
+    "guardrails.py": "d8fbc2a46f24",
+    "scene_benchmark.py": "cdc8d7690d74",
+    "scenes.py": "996e949fa6b4"
+  },
+  "system_prompt": "You are Franky, a small duck robot standing on a table top. A person gives you a command. You carry it out on your own by calling tools, exactly ONE tool per turn. After every tool call you get its result, and usually a new picture from your camera. Nothing else tells you about the world.\n\nYOUR CAMERA\n- One camera on your head, 0.24 m above the table. It looks forward and tilted down, about 100 degrees wide.\n- You cannot see behind you, or anything outside the picture. The lowest edge of the picture shows the table about 0.09 m in front of the centre of your body, so the strip of table right below your beak is hidden, and so is anything you hold in your beak.\n- A picture is flat. It does not tell you distances. The measure tool turns a spot in the picture into a real distance and direction.\n- Things far away are small in the picture, so a spot you point at there is only roughly where you meant. The closer you are, the larger and clearer things are.\n- A picture, and the measurements made on it, describe the moment it was taken. When you move, they are out of date.\n\nYOUR BODY\n- You walk on two legs. You can walk straight forward or backward and turn left or right. You cannot step sideways. Your movements are not exact: you end up a few centimetres and a few degrees away from what you asked for. The tool tells you what your body really did.\n- When you crouch to close or open your beak, your beak tip touches the table 0.10 m in front of the centre of your body. Closing and opening the beak only work on what is at that spot: they do not move you.\n- You hold the banana crosswise in your beak, like a bar across your face with its middle on your beak tip. So your beak can only take the banana when it lies ACROSS your beak (its long side at right angles to the direction you face, within about 20 degrees) and its middle is within about 5 cm of your beak tip.\n- Your feet reach about 6 cm in front of the centre of your body. The rim of a box can trip you, and walking into the banana kicks it away. Stay on the table: past its edge is a long fall. A safety system refuses or stops moves that would take you too close to an edge or onto a box.\n\nThink about what you see, and what each move will do, before you act. Your thinking is not remembered from one turn to the next, and old pictures are dropped to save memory: the note you write in every tool call is what you will have.",
+  "opening_message": "Command: Pick up the banana and put it into the green box.\n\nYou have not looked at anything yet.",
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "look",
+        "description": "Take a picture with your camera and look at it. Returns the picture.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "note": {
+              "type": "string",
+              "description": "A short note to yourself, kept in your history: what you see and know so far (with the numbers), and what you will do next."
+            }
+          },
+          "required": [
+            "note"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "find",
+        "description": "Ask a vision model to find something in the latest picture by name. Say what to look for in a few words (its colour and kind, for example 'red cup'). The vision model draws a box around each match. For every box you get: where it is in the picture (x and y on the same 0 to 1000 scale as measure), where the middle of the box touches the table (metres ahead and to the left of the centre of your body, its distance and bearing), and the size of its footprint on the table (how wide across, how deep along your line of sight, in metres). You also get the picture back with the boxes drawn and numbered. The boxes are drawn by a vision model and can be rough or wrong: check them on the picture. A box does not tell you which way a long object points; measure can. Only things inside the picture can be found.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "what": {
+              "type": "string",
+              "description": "what to look for, in a few words, e.g. its colour and kind"
+            },
+            "note": {
+              "type": "string",
+              "description": "A short note to yourself, kept in your history: what you see and know so far (with the numbers), and what you will do next."
+            }
+          },
+          "required": [
+            "what",
+            "note"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "measure",
+        "description": "Measure real distances on the latest picture. Point at one spot (x, y), or at two spots (x, y and x2, y2 - for example the two ends of an object). Positions in the picture are on a 0 to 1000 scale: x = 0 is the left edge and x = 1000 the right edge, y = 0 is the top edge and y = 1000 the bottom edge. Point at the place where the object touches the table. For every spot you get how far ahead and how far to the left it is on the table (metres, from the centre of your body), its distance and its bearing (degrees, positive = left). For two spots you also get the middle between them, the length of the line between them and its angle relative to the direction you face (0 = pointing the way you face, +90 or -90 = lying across you; positive = the line is rotated toward your left). You also get the picture back with your spots marked by red crosses, so you can check you pointed at the right place. Only a spot on the table surface can be measured.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "number",
+              "description": "first spot, across the picture, 0 (left) to 1000 (right)"
+            },
+            "y": {
+              "type": "number",
+              "description": "first spot, down the picture, 0 (top) to 1000 (bottom)"
+            },
+            "x2": {
+              "type": "number",
+              "description": "optional second spot, across the picture, 0 to 1000"
+            },
+            "y2": {
+              "type": "number",
+              "description": "optional second spot, down the picture, 0 to 1000"
+            },
+            "note": {
+              "type": "string",
+              "description": "A short note to yourself, kept in your history: what you see and know so far (with the numbers), and what you will do next."
+            }
+          },
+          "required": [
+            "x",
+            "y",
+            "note"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "walk",
+        "description": "Move your body. First you turn on the spot by `turn` degrees (positive = left, negative = right), then you walk straight `forward` metres (negative = backwards). Either can be 0. Returns what your body really did, measured by your own motion sensors (it differs a little from what you asked), and a new picture. Limits: forward from -0.25 to 0.60 m; turn from -180 to 180 degrees. Turning on the spot by less than about 30 degrees does not work well: a small turn is made gently while walking, so it needs forward of at least 0.10 m.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "forward": {
+              "type": "number",
+              "description": "metres to walk straight after the turn; negative = backwards; default 0"
+            },
+            "turn": {
+              "type": "number",
+              "description": "degrees to turn first; positive = left, negative = right; default 0"
+            },
+            "note": {
+              "type": "string",
+              "description": "A short note to yourself, kept in your history: what you see and know so far (with the numbers), and what you will do next."
+            }
+          },
+          "required": [
+            "note"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "close_beak",
+        "description": "Crouch, close your beak on whatever is under your beak tip (the spot on the table 0.10 m in front of the centre of your body), and stand up. It does not move you and does not aim at anything: it only closes the beak where the beak tip is. The beak takes the banana only if the banana's middle is within about 5 cm of your beak tip and it lies across your beak (within about 20 degrees). Returns what the beak closed on, and a new picture.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "note": {
+              "type": "string",
+              "description": "A short note to yourself, kept in your history: what you see and know so far (with the numbers), and what you will do next."
+            }
+          },
+          "required": [
+            "note"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "open_beak",
+        "description": "Crouch, open your beak so that what you hold at your beak tip drops on the table just in front of the beak tip, and stand up. It does not move you. Returns a new picture.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "note": {
+              "type": "string",
+              "description": "A short note to yourself, kept in your history: what you see and know so far (with the numbers), and what you will do next."
+            }
+          },
+          "required": [
+            "note"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "done",
+        "description": "Tell the person you have finished the command. Call it only when you believe the command is completed.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "note": {
+              "type": "string",
+              "description": "Optional."
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "scene": 10,
+    "name": "across-left",
+    "attempts": 4,
+    "solved": false,
+    "solved_at": null,
+    "results": [
+      {
+        "success": false,
+        "steps": 40,
+        "ended": "max_steps",
+        "failed_effects": 14,
+        "llm_s": 814.6,
+        "walks": 9,
+        "close_beaks": 10
+      },
+      {
+        "success": false,
+        "steps": 17,
+        "ended": "no_tool_calls",
+        "failed_effects": 3,
+        "llm_s": 346.4,
+        "walks": 3,
+        "close_beaks": 0
+      },
+      {
+        "success": false,
+        "steps": 40,
+        "ended": "max_steps",
+        "failed_effects": 16,
+        "llm_s": 870.5,
+        "walks": 8,
+        "close_beaks": 6
+      }
+    ]
+  }
+]

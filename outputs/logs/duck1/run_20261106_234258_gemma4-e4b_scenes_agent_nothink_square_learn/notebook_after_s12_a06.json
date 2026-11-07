@@ -1,0 +1,219 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 15,
+  "n_s": 10,
+  "knowledge": [
+    {
+      "id": "K1",
+      "text": "The beak only takes the banana if its middle is within 7 cm of the beak tip.",
+      "source": "scene 12, attempt 1",
+      "seen": 2,
+      "tries": 5,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-06 23:58:28"
+    },
+    {
+      "id": "K7",
+      "text": "Walking forward can stop early if an object is near the path.",
+      "source": "scene 12, attempt 3",
+      "seen": 1,
+      "tries": 3,
+      "wins": 0,
+      "order": 7,
+      "added": "2026-11-07 00:19:50"
+    },
+    {
+      "id": "K8",
+      "text": "Searching for the banana or \"banana inside green box\" repeatedly failed even when close to the target container.",
+      "source": "scene 12, attempt 3",
+      "seen": 1,
+      "tries": 3,
+      "wins": 0,
+      "order": 8,
+      "added": "2026-11-07 00:19:50"
+    },
+    {
+      "id": "K9",
+      "text": "The banana landed at 0.09 m ahead and 0.00 m left, while the green box center was measured at 0.12 m ahead and 0.15 m left.",
+      "source": "scene 12, attempt 4",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 9,
+      "added": "2026-11-07 00:38:33"
+    },
+    {
+      "id": "K10",
+      "text": "The calculated drop point does not guarantee the banana lands at the center of the target container.",
+      "source": "scene 12, attempt 4",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 10,
+      "added": "2026-11-07 00:38:33"
+    },
+    {
+      "id": "K11",
+      "text": "The safety system prevents movement if the path would run into the box rim.",
+      "source": "scene 12, attempt 5",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 11,
+      "added": "2026-11-07 00:53:27"
+    },
+    {
+      "id": "K12",
+      "text": "The banana is NOT in the green box. The banana lies on the table.",
+      "source": "scene 12, attempt 5",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 12,
+      "added": "2026-11-07 00:53:27"
+    },
+    {
+      "id": "K13",
+      "text": "The beak successfully grabs the banana if its middle is within 0.07 m of the beak tip.",
+      "source": "scene 12, attempt 6",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 13,
+      "added": "2026-11-07 01:10:14"
+    },
+    {
+      "id": "K14",
+      "text": "The banana must be held crosswise (long side across beak) within 30 degrees for the beak to take it.",
+      "source": "scene 12, attempt 6",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 14,
+      "added": "2026-11-07 01:10:14"
+    },
+    {
+      "id": "K15",
+      "text": "Repeated grab attempts failed because the beak sense reported the banana was more than 0.10 m from the beak tip.",
+      "source": "scene 12, attempt 6",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 15,
+      "added": "2026-11-07 01:10:14"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S3",
+      "text": "After dropping the banana, verify its location relative to the container to ensure it is fully inside.",
+      "source": "scene 12, attempt 2",
+      "seen": 2,
+      "tries": 4,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-07 00:08:59"
+    },
+    {
+      "id": "S6",
+      "text": "After dropping, measure the banana's location relative to the box to confirm it is fully inside, rather than relying solely on detection.",
+      "source": "scene 12, attempt 3",
+      "seen": 1,
+      "tries": 3,
+      "wins": 0,
+      "order": 6,
+      "added": "2026-11-07 00:19:50"
+    },
+    {
+      "id": "S7",
+      "text": "After dropping, measure both the banana and the container to determine the offset and adjust future drop points accordingly.",
+      "source": "scene 12, attempt 4",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 7,
+      "added": "2026-11-07 00:38:33"
+    },
+    {
+      "id": "S8",
+      "text": "Before grabbing, ensure the banana's middle is within 7 cm and its long side is across the beak (within 30 degrees).",
+      "source": "scene 12, attempt 5",
+      "seen": 2,
+      "tries": 1,
+      "wins": 0,
+      "order": 8,
+      "added": "2026-11-07 00:53:27"
+    },
+    {
+      "id": "S9",
+      "text": "When approaching a container, check for safety restrictions before walking forward.",
+      "source": "scene 12, attempt 5",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 9,
+      "added": "2026-11-07 00:53:27"
+    },
+    {
+      "id": "S10",
+      "text": "If the banana is not found, continue moving towards the last known general area.",
+      "source": "scene 12, attempt 6",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 10,
+      "added": "2026-11-07 01:10:14"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-06 23:55:15",
+      "success": false,
+      "scene": 12,
+      "attempt": 1,
+      "steps": 39,
+      "ended": "max_steps"
+    },
+    {
+      "time": "2026-11-07 00:05:54",
+      "success": false,
+      "scene": 12,
+      "attempt": 2,
+      "steps": 22,
+      "ended": "done"
+    },
+    {
+      "time": "2026-11-07 00:16:30",
+      "success": false,
+      "scene": 12,
+      "attempt": 3,
+      "steps": 21,
+      "ended": "guard_stalled"
+    },
+    {
+      "time": "2026-11-07 00:35:09",
+      "success": false,
+      "scene": 12,
+      "attempt": 4,
+      "steps": 37,
+      "ended": "done"
+    },
+    {
+      "time": "2026-11-07 00:49:24",
+      "success": false,
+      "scene": 12,
+      "attempt": 5,
+      "steps": 36,
+      "ended": "no_tool_calls"
+    },
+    {
+      "time": "2026-11-07 01:07:33",
+      "success": false,
+      "scene": 12,
+      "attempt": 6,
+      "steps": 40,
+      "ended": "max_steps"
+    }
+  ]
+}

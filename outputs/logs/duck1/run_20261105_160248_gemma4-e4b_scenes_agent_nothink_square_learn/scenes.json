@@ -1,0 +1,40 @@
+{
+  "10": {
+    "name": "across-left",
+    "banana": [
+      0.2,
+      0.12
+    ],
+    "box": [
+      0.2,
+      -0.2
+    ],
+    "banana_yaw": 90.0,
+    "note": "PRACTICE: scene 0 with the banana already across the duck's heading"
+  },
+  "11": {
+    "name": "slanted-left",
+    "banana": [
+      0.2,
+      0.12
+    ],
+    "box": [
+      0.2,
+      -0.2
+    ],
+    "banana_yaw": 45.0,
+    "note": "PRACTICE: scene 0 with the banana turned half way (45 degrees)"
+  },
+  "0": {
+    "name": "easy-left",
+    "banana": [
+      0.2,
+      0.12
+    ],
+    "box": [
+      0.2,
+      -0.2
+    ],
+    "note": "like the usual random seeds"
+  }
+}

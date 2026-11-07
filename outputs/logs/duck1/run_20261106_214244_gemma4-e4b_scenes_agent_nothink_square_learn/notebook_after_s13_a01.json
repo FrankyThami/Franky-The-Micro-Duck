@@ -1,0 +1,69 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 3,
+  "n_s": 2,
+  "knowledge": [
+    {
+      "id": "K1",
+      "text": "Beak grip requires banana middle within 7 cm and long side within 30 degrees across the beak.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-06 21:59:35"
+    },
+    {
+      "id": "K2",
+      "text": "Safety system refuses walks or turns that move the body too close to the table edge.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-06 21:59:35"
+    },
+    {
+      "id": "K3",
+      "text": "The pick_up tool is unknown; gripping must be attempted using close_beak.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-06 21:59:35"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S1",
+      "text": "To pick up the banana, align it across the beak and ensure its middle is close enough (within 7 cm).",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-06 21:59:35"
+    },
+    {
+      "id": "S2",
+      "text": "When maneuvering near a target, be aware of the table edge, as safety restrictions may prevent necessary movement.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-06 21:59:35"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-06 21:56:16",
+      "success": false,
+      "scene": 13,
+      "attempt": 1,
+      "steps": 31,
+      "ended": "guard_failures"
+    }
+  ]
+}

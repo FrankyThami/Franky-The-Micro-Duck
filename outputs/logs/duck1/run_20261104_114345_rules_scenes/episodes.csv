@@ -1,0 +1,11 @@
+﻿run_id,episode,seed,model,brain,success,claimed_done,false_claim,ended,steps,failed_calls,no_tool_calls,panel,guard,failed_effects,loop_flags,unexpected_events,external_changes,done_rejected,llm_s,prompt_tokens,gen_tokens,sim_s,wall_s,final_banana_x,final_banana_y,final_dist_banana_to_box,memory,faults,guardrail_triggers
+run_20261104_114345_rules_scenes,1,0,rules,RuleBrain,True,True,False,done,6,0,0,off,off,0,0,0,0,0,0.0,0,0,17.0,0.9,0.1737,-0.1516,0.055,off,none,0
+run_20261104_114345_rules_scenes,2,1,rules,RuleBrain,True,True,False,done,6,0,0,off,off,0,0,0,0,0,0.0,0,0,17.1,0.8,0.187,0.1616,0.067,off,none,0
+run_20261104_114345_rules_scenes,3,2,rules,RuleBrain,True,True,False,done,6,0,0,off,off,0,0,0,0,0,0.0,0,0,16.2,0.6,0.1737,0.1212,0.064,off,none,0
+run_20261104_114345_rules_scenes,4,3,rules,RuleBrain,True,True,False,done,6,0,0,off,off,0,0,0,0,0,0.0,0,0,18.0,0.7,0.3022,-0.229,0.051,off,none,0
+run_20261104_114345_rules_scenes,5,4,rules,RuleBrain,True,True,False,done,6,0,0,off,off,0,0,0,0,0,0.0,0,0,22.4,0.8,0.106,-0.3273,0.053,off,none,0
+run_20261104_114345_rules_scenes,6,5,rules,RuleBrain,False,False,False,max_steps,14,0,0,off,off,14,13,0,0,0,0.0,0,0,11.2,0.4,-0.36,0.0,0.595,off,none,0
+run_20261104_114345_rules_scenes,7,6,rules,RuleBrain,True,True,False,done,6,0,0,off,off,0,0,0,0,0,0.0,0,0,19.5,0.7,0.217,-0.0929,0.066,off,none,0
+run_20261104_114345_rules_scenes,8,7,rules,RuleBrain,True,True,False,done,6,0,0,off,off,0,0,0,0,0,0.0,0,0,20.2,0.7,-0.1422,-0.2288,0.065,off,none,0
+run_20261104_114345_rules_scenes,9,8,rules,RuleBrain,True,True,False,done,6,0,0,off,off,0,0,0,0,0,0.0,0,0,22.2,0.8,0.0162,0.2516,0.082,off,none,0
+run_20261104_114345_rules_scenes,10,9,rules,RuleBrain,True,True,False,done,8,0,0,off,off,2,1,0,0,0,0.0,0,0,21.1,0.8,0.263,-0.159,0.075,off,none,0

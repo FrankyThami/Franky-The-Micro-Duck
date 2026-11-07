@@ -1,0 +1,2 @@
+﻿scene,scene_name,attempt,success,steps,ended,walks,close_beaks,finds,failed_effects,llm_s,wall_s,notes_shown,reflect_s,reflect_mode,added,merged,forgotten,evicted,rejected,verdict
+12,close-start,1,False,18,guard_loop,7,5,4,8,903.3,927.2,,,,,,,,,The person says: the banana is NOT in the green box. The banana lies on the table.

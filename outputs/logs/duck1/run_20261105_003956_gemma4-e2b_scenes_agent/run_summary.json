@@ -1,0 +1,47 @@
+{
+  "run_id": "run_20261105_003956_gemma4-e2b_scenes_agent",
+  "model": "gemma4:e2b",
+  "command": "Pick up the banana and put it into the green box.",
+  "episodes": 5,
+  "successes": 0,
+  "success_rate": 0.0,
+  "false_claims": 0,
+  "missed_goals": 46,
+  "loop_flags": 16,
+  "unexpected_events": 0,
+  "safety_events": 0,
+  "guard_actions": 17,
+  "measures": 10,
+  "measures_on_object": 0,
+  "first_look": 5,
+  "mean_steps": 21.8,
+  "mean_llm_s": 274.2,
+  "mean_sim_s": 31.3,
+  "per_scene": {
+    "0": {
+      "success": false,
+      "steps": 28,
+      "ended": "guard_loop"
+    },
+    "1": {
+      "success": false,
+      "steps": 16,
+      "ended": "guard_loop"
+    },
+    "2": {
+      "success": false,
+      "steps": 4,
+      "ended": "guard_loop"
+    },
+    "3": {
+      "success": false,
+      "steps": 32,
+      "ended": "guard_failures"
+    },
+    "4": {
+      "success": false,
+      "steps": 29,
+      "ended": "guard_failures"
+    }
+  }
+}

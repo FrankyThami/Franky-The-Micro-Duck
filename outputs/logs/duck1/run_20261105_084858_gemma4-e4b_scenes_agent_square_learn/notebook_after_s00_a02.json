@@ -1,0 +1,107 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 5,
+  "n_s": 3,
+  "knowledge": [
+    {
+      "id": "K1",
+      "text": "Repeated close_beak() attempts failed to grasp the banana, even when the robot was positioned directly over it.",
+      "source": "scene 0, attempt 1",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-05 09:01:47"
+    },
+    {
+      "id": "K2",
+      "text": "Measurements taken from picture coordinates often fail, reporting the spot as \"not on the table surface within range.",
+      "source": "scene 0, attempt 1",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-05 09:01:47"
+    },
+    {
+      "id": "K3",
+      "text": "Repeated actions that do not result in movement or successful interaction trigger warnings and halt the attempt.",
+      "source": "scene 0, attempt 1",
+      "seen": 2,
+      "tries": 1,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-05 09:01:47"
+    },
+    {
+      "id": "K4",
+      "text": "close_beak() fails to grasp the banana even when the distance is extremely small (e.g., 0.09m ahead).",
+      "source": "scene 0, attempt 2",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 4,
+      "added": "2026-11-05 09:27:02"
+    },
+    {
+      "id": "K5",
+      "text": "Measurements can fail (\"not on the table surface\") even if the object is visible in the camera view.",
+      "source": "scene 0, attempt 2",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 5,
+      "added": "2026-11-05 09:27:02"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S1",
+      "text": "Before closing the beak, confirm precise alignment and position using small forward movements.",
+      "source": "scene 0, attempt 1",
+      "seen": 2,
+      "tries": 1,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-05 09:01:47"
+    },
+    {
+      "id": "S2",
+      "text": "Use find() to confirm the target is within the camera's view and range before attempting pickup.",
+      "source": "scene 0, attempt 1",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-05 09:01:47"
+    },
+    {
+      "id": "S3",
+      "text": "Avoid sequences of actions that result in zero change to prevent system warnings.",
+      "source": "scene 0, attempt 2",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-05 09:27:02"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-05 08:59:48",
+      "success": false,
+      "scene": 0,
+      "attempt": 1,
+      "steps": 14,
+      "ended": "guard_loop"
+    },
+    {
+      "time": "2026-11-05 09:24:23",
+      "success": false,
+      "scene": 0,
+      "attempt": 2,
+      "steps": 24,
+      "ended": "guard_failures"
+    }
+  ]
+}

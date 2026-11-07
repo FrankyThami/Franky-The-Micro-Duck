@@ -1,0 +1,2 @@
+﻿scene,scene_name,attempt,success,steps,ended,walks,turns,close_beaks,finds,failed_effects,llm_s,wall_s,notes_shown,reflect_s,reflect_mode,added,merged,forgotten,forget_refused,evicted,rejected,verdict
+10,across-left,1,True,16,done,5,2,2,3,3,347.5,370.0,,185.3,lines,K1 K2 K3 S1,,,,,0,The person says: the banana is in the green box. The command is completed.

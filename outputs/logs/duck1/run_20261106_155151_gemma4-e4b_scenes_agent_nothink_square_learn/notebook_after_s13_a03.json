@@ -1,0 +1,155 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 8,
+  "n_s": 5,
+  "knowledge": [
+    {
+      "id": "K1",
+      "text": "Moving forward 0.3m can cause the green box to become invisible in the camera view.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-06 16:08:43"
+    },
+    {
+      "id": "K3",
+      "text": "The beak successfully picks up the banana if its long side is within 87 degrees of lying across my beak.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-06 16:08:43"
+    },
+    {
+      "id": "K4",
+      "text": "Safety system refuses walks if the box rim would trip me (e.g., Step 5, 6).",
+      "source": "scene 13, attempt 2",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 4,
+      "added": "2026-11-06 16:15:00"
+    },
+    {
+      "id": "K5",
+      "text": "Opening the beak near the box drops the banana on the table, not inside it.",
+      "source": "scene 13, attempt 2",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 5,
+      "added": "2026-11-06 16:15:00"
+    },
+    {
+      "id": "K6",
+      "text": "Turning 90 degrees right results in a slight overshoot (e.g., 92 degrees turn, 0.03 m forward).",
+      "source": "scene 13, attempt 2",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 6,
+      "added": "2026-11-06 16:15:00"
+    },
+    {
+      "id": "K7",
+      "text": "Asking for 180 degrees left results in a 180 degree turn to the right.",
+      "source": "scene 13, attempt 3",
+      "seen": 2,
+      "tries": 0,
+      "wins": 0,
+      "order": 7,
+      "added": "2026-11-06 16:25:50"
+    },
+    {
+      "id": "K8",
+      "text": "Asking for 0 degrees turn and 0.3m forward results in a 7 degree left turn and 0.29m forward movement.",
+      "source": "scene 13, attempt 3",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 8,
+      "added": "2026-11-06 16:25:50"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S1",
+      "text": "If the target is lost after moving, turn around 180 degrees to try and find it again.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-06 16:08:43"
+    },
+    {
+      "id": "S2",
+      "text": "Use measure() to confirm the exact distance and bearing of the target before attempting to drop the banana.",
+      "source": "scene 13, attempt 1",
+      "seen": 2,
+      "tries": 2,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-06 16:08:43"
+    },
+    {
+      "id": "S3",
+      "text": "Since I cannot walk into the box, I must find a way to manipulate the banana after dropping it.",
+      "source": "scene 13, attempt 2",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-06 16:15:00"
+    },
+    {
+      "id": "S4",
+      "text": "If the target is not found, try moving forward small amounts (e.g., 0.1m) and turning slightly (e.g., 5 degrees) to explore the area.",
+      "source": "scene 13, attempt 3",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 4,
+      "added": "2026-11-06 16:25:50"
+    },
+    {
+      "id": "S5",
+      "text": "Turning 180 degrees is not guaranteed to re-establish visual contact with the target.",
+      "source": "scene 13, attempt 3",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 5,
+      "added": "2026-11-06 16:25:50"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-06 16:05:29",
+      "success": false,
+      "scene": 13,
+      "attempt": 1,
+      "steps": 39,
+      "ended": "max_steps"
+    },
+    {
+      "time": "2026-11-06 16:12:11",
+      "success": false,
+      "scene": 13,
+      "attempt": 2,
+      "steps": 13,
+      "ended": "done"
+    },
+    {
+      "time": "2026-11-06 16:22:26",
+      "success": false,
+      "scene": 13,
+      "attempt": 3,
+      "steps": 30,
+      "ended": "done"
+    }
+  ]
+}

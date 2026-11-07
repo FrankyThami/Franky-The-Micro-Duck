@@ -1,0 +1,69 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 3,
+  "n_s": 2,
+  "knowledge": [
+    {
+      "id": "K1",
+      "text": "The find(what='green box') tool consistently fails to locate the green box (e.g., attempts 15, 17, 23).",
+      "source": "scene 0, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-05 14:00:36"
+    },
+    {
+      "id": "K2",
+      "text": "Walking forward (e.g., attempts 21, 24) can stop early if the target is right at the feet.",
+      "source": "scene 0, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-05 14:00:36"
+    },
+    {
+      "id": "K3",
+      "text": "Closing the beak does not guarantee picking up the banana even when the beak sense indicates very close proximity (e.g., 0.06 m, 0.04 m).",
+      "source": "scene 0, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-05 14:00:36"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S1",
+      "text": "When positioning for pickup, use small, incremental walks (e.g., 0.05 m) to ensure the target is within striking distance.",
+      "source": "scene 0, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-05 14:00:36"
+    },
+    {
+      "id": "S2",
+      "text": "Do not rely on combined searches (find(what='banana and green box')) if one object is consistently not found.",
+      "source": "scene 0, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-05 14:00:36"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-05 13:57:48",
+      "success": false,
+      "scene": 0,
+      "attempt": 1,
+      "steps": 25,
+      "ended": "guard_loop"
+    }
+  ]
+}

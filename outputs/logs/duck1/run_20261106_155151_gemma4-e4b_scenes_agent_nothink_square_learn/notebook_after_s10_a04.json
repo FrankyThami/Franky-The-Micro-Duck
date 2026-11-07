@@ -1,0 +1,259 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 24,
+  "n_s": 18,
+  "knowledge": [
+    {
+      "id": "K1",
+      "text": "Moving forward 0.3m can cause the green box to become invisible in the camera view.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 10,
+      "wins": 2,
+      "order": 1,
+      "added": "2026-11-06 16:08:43"
+    },
+    {
+      "id": "K4",
+      "text": "Safety system refuses walks if the box rim would trip me (e.g., Step 5, 6).",
+      "source": "scene 13, attempt 2",
+      "seen": 1,
+      "tries": 9,
+      "wins": 2,
+      "order": 4,
+      "added": "2026-11-06 16:15:00"
+    },
+    {
+      "id": "K6",
+      "text": "Turning 90 degrees right results in a slight overshoot (e.g., 92 degrees turn, 0.03 m forward).",
+      "source": "scene 13, attempt 2",
+      "seen": 1,
+      "tries": 9,
+      "wins": 2,
+      "order": 6,
+      "added": "2026-11-06 16:15:00"
+    },
+    {
+      "id": "K7",
+      "text": "Asking for 180 degrees left results in a 180 degree turn to the right.",
+      "source": "scene 13, attempt 3",
+      "seen": 2,
+      "tries": 8,
+      "wins": 2,
+      "order": 7,
+      "added": "2026-11-06 16:25:50"
+    },
+    {
+      "id": "K8",
+      "text": "Asking for 0 degrees turn and 0.3m forward results in a 7 degree left turn and 0.29m forward movement.",
+      "source": "scene 13, attempt 3",
+      "seen": 2,
+      "tries": 8,
+      "wins": 2,
+      "order": 8,
+      "added": "2026-11-06 16:25:50"
+    },
+    {
+      "id": "K11",
+      "text": "Beak pickup requires the banana's long side to be within 30 degrees of lying across the beak. (Step 7 showed 69 degrees failed.)",
+      "source": "scene 12, attempt 1",
+      "seen": 3,
+      "tries": 6,
+      "wins": 1,
+      "order": 11,
+      "added": "2026-11-06 16:45:24"
+    },
+    {
+      "id": "K14",
+      "text": "When moving forward small amounts (e.g., 0.1m), the banana may not be visible in the next picture.",
+      "source": "scene 12, attempt 2",
+      "seen": 1,
+      "tries": 5,
+      "wins": 1,
+      "order": 14,
+      "added": "2026-11-06 17:01:42"
+    },
+    {
+      "id": "K22",
+      "text": "The safety system refuses walks that would bring me too close to the edge of the table.",
+      "source": "scene 10, attempt 4",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 22,
+      "added": "2026-11-06 18:20:28"
+    },
+    {
+      "id": "K23",
+      "text": "Large turns (e.g., 90 degrees) can cause the vision model to fail to locate targets like the green box.",
+      "source": "scene 10, attempt 4",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 23,
+      "added": "2026-11-06 18:20:28"
+    },
+    {
+      "id": "K24",
+      "text": "Pickup fails if the banana is more than 0.10 m from my beak tip, even if orientation is suitable.",
+      "source": "scene 10, attempt 4",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 24,
+      "added": "2026-11-06 18:20:28"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S2",
+      "text": "Use measure() to confirm the exact distance and bearing of the target before attempting to drop the banana.",
+      "source": "scene 13, attempt 1",
+      "seen": 3,
+      "tries": 10,
+      "wins": 2,
+      "order": 2,
+      "added": "2026-11-06 16:08:43"
+    },
+    {
+      "id": "S3",
+      "text": "Since I cannot walk into the box, I must find a way to manipulate the banana after dropping it.",
+      "source": "scene 13, attempt 2",
+      "seen": 1,
+      "tries": 9,
+      "wins": 2,
+      "order": 3,
+      "added": "2026-11-06 16:15:00"
+    },
+    {
+      "id": "S4",
+      "text": "If the target is not found, try moving forward small amounts (e.g., 0.1m) and turning slightly (e.g., 5 degrees) to explore the area.",
+      "source": "scene 13, attempt 3",
+      "seen": 1,
+      "tries": 8,
+      "wins": 2,
+      "order": 4,
+      "added": "2026-11-06 16:25:50"
+    },
+    {
+      "id": "S5",
+      "text": "Turning 180 degrees is not guaranteed to re-establish visual contact with the target.",
+      "source": "scene 13, attempt 3",
+      "seen": 1,
+      "tries": 8,
+      "wins": 2,
+      "order": 5,
+      "added": "2026-11-06 16:25:50"
+    },
+    {
+      "id": "S17",
+      "text": "When targets disappear after a large turn, use small, incremental movements and searches to reorient and find them.",
+      "source": "scene 10, attempt 4",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 17,
+      "added": "2026-11-06 18:20:28"
+    },
+    {
+      "id": "S18",
+      "text": "When approaching, use small, incremental movements and turns to maintain visibility and avoid safety limits.",
+      "source": "scene 10, attempt 4",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 18,
+      "added": "2026-11-06 18:20:28"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-06 16:05:29",
+      "success": false,
+      "scene": 13,
+      "attempt": 1,
+      "steps": 39,
+      "ended": "max_steps"
+    },
+    {
+      "time": "2026-11-06 16:12:11",
+      "success": false,
+      "scene": 13,
+      "attempt": 2,
+      "steps": 13,
+      "ended": "done"
+    },
+    {
+      "time": "2026-11-06 16:22:26",
+      "success": false,
+      "scene": 13,
+      "attempt": 3,
+      "steps": 30,
+      "ended": "done"
+    },
+    {
+      "time": "2026-11-06 16:33:45",
+      "success": true,
+      "scene": 13,
+      "attempt": 4,
+      "steps": 24,
+      "ended": "done"
+    },
+    {
+      "time": "2026-11-06 16:42:28",
+      "success": false,
+      "scene": 12,
+      "attempt": 1,
+      "steps": 21,
+      "ended": "done"
+    },
+    {
+      "time": "2026-11-06 16:59:03",
+      "success": false,
+      "scene": 12,
+      "attempt": 2,
+      "steps": 40,
+      "ended": "max_steps"
+    },
+    {
+      "time": "2026-11-06 17:13:49",
+      "success": true,
+      "scene": 12,
+      "attempt": 3,
+      "steps": 30,
+      "ended": "done"
+    },
+    {
+      "time": "2026-11-06 17:29:28",
+      "success": false,
+      "scene": 10,
+      "attempt": 1,
+      "steps": 40,
+      "ended": "max_steps"
+    },
+    {
+      "time": "2026-11-06 17:47:47",
+      "success": false,
+      "scene": 10,
+      "attempt": 2,
+      "steps": 40,
+      "ended": "max_steps"
+    },
+    {
+      "time": "2026-11-06 18:01:16",
+      "success": false,
+      "scene": 10,
+      "attempt": 3,
+      "steps": 29,
+      "ended": "guard_loop"
+    },
+    {
+      "time": "2026-11-06 18:17:32",
+      "success": false,
+      "scene": 10,
+      "attempt": 4,
+      "steps": 39,
+      "ended": "max_steps"
+    }
+  ]
+}

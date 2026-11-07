@@ -1,0 +1,110 @@
+[
+  {
+    "scene": 13,
+    "name": "carry-start",
+    "attempts": 4,
+    "solved": true,
+    "solved_at": 4,
+    "results": [
+      {
+        "success": false,
+        "steps": 27,
+        "ended": "guard_stalled",
+        "failed_effects": 13,
+        "llm_s": 407.6,
+        "walks": 3,
+        "close_beaks": 0
+      },
+      {
+        "success": false,
+        "steps": 26,
+        "ended": "done",
+        "failed_effects": 16,
+        "llm_s": 377.8,
+        "walks": 3,
+        "close_beaks": 1
+      },
+      {
+        "success": false,
+        "steps": 28,
+        "ended": "guard_stalled",
+        "failed_effects": 15,
+        "llm_s": 443.4,
+        "walks": 5,
+        "close_beaks": 1
+      },
+      {
+        "success": true,
+        "steps": 20,
+        "ended": "done",
+        "failed_effects": 8,
+        "llm_s": 281.3,
+        "walks": 6,
+        "close_beaks": 1
+      }
+    ]
+  },
+  {
+    "scene": 12,
+    "name": "close-start",
+    "attempts": 6,
+    "solved": false,
+    "solved_at": null,
+    "results": [
+      {
+        "success": false,
+        "steps": 22,
+        "ended": "no_tool_calls",
+        "failed_effects": 7,
+        "llm_s": 445.8,
+        "walks": 5,
+        "close_beaks": 2
+      },
+      {
+        "success": false,
+        "steps": 36,
+        "ended": "guard_stalled",
+        "failed_effects": 14,
+        "llm_s": 681.3,
+        "walks": 10,
+        "close_beaks": 2
+      },
+      {
+        "success": false,
+        "steps": 25,
+        "ended": "guard_stalled",
+        "failed_effects": 12,
+        "llm_s": 511.9,
+        "walks": 4,
+        "close_beaks": 5
+      },
+      {
+        "success": false,
+        "steps": 22,
+        "ended": "guard_stalled",
+        "failed_effects": 8,
+        "llm_s": 406.6,
+        "walks": 3,
+        "close_beaks": 1
+      },
+      {
+        "success": false,
+        "steps": 38,
+        "ended": "max_steps",
+        "failed_effects": 16,
+        "llm_s": 710.7,
+        "walks": 6,
+        "close_beaks": 3
+      },
+      {
+        "success": false,
+        "steps": 32,
+        "ended": "no_tool_calls",
+        "failed_effects": 12,
+        "llm_s": 585.3,
+        "walks": 6,
+        "close_beaks": 2
+      }
+    ]
+  }
+]

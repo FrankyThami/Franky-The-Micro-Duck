@@ -1,0 +1,6 @@
+The files of the OLD Franky (colour-blob eye, recipe prompt, walk_to(banana), EyeRuleBrain),
+saved here before Franky was rebuilt as an autonomous LLM agent.
+  duck1/eye_tools.py        old tools, prompt, referee and the if-statement brain (removed from duck1/)
+  duck1/scene_benchmark.py  old benchmark script (replaced)
+  README.md                 old readme (replaced)
+To go back: copy them back into duck1\ and the project folder. Nothing else was changed except the new files.

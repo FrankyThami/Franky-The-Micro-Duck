@@ -1,0 +1,11 @@
+﻿scene,scene_name,attempt,success,steps,ended,walks,close_beaks,finds,failed_effects,llm_s,wall_s,notes_shown,reflect_s,reflect_mode,added,merged,forgotten,evicted,rejected,verdict
+13,carry-start,1,False,27,guard_stalled,3,0,11,13,407.6,415.4,,156.4,lines,K1 K2 S1,,,,0,The person says: the banana is NOT in the green box. You are still holding the banana.
+13,carry-start,2,False,26,done,3,1,8,16,377.8,392.4,K1 K2 S1,166.1,lines,K3 K4,,S1,,0,"The person says: the banana is NOT in the green box. You are still holding the banana. You said you had finished, but yo"
+13,carry-start,3,False,28,guard_stalled,5,1,9,15,443.4,456.0,K1 K2 K3 K4,178.8,lines,K5 K6 S2,,K4,,0,The person says: the banana is NOT in the green box. The banana fell off the table.
+13,carry-start,4,True,20,done,6,1,6,8,281.3,298.7,K1 K2 K3 K5 K6 S2,156.4,lines,K7 K8 K9 S3 S4,,,,0,The person says: the banana is in the green box. The command is completed.
+12,close-start,1,False,22,no_tool_calls,5,2,8,7,445.8,464.6,K1 K2 K3 K5 K6 K7 K8 K9 S2 S3 S4,214.4,lines,K10 K11 K12 S5 S6,,,K7,0,The person says: the banana is NOT in the green box. You are still holding the banana.
+12,close-start,2,False,36,guard_stalled,10,2,11,14,681.3,707.0,K1 K2 K3 K5 K6 K8 K9 K10 K11 K12 S2 S3 S4 S5 S6,184.3,lines,K13 K14 K15 S7 S8,,K8,K9 K10 S3,0,The person says: the banana is NOT in the green box. The banana lies on the table.
+12,close-start,3,False,25,guard_stalled,4,5,10,12,511.9,536.7,K1 K2 K3 K5 K6 K11 K12 K13 K14 K15 S2 S4 S5 S6 S7 S8,191.4,lines,K16 K17 S9,,K13 S7,K11,0,The person says: the banana is NOT in the green box. The banana lies on the table.
+12,close-start,4,False,22,guard_stalled,3,1,10,8,406.6,420.8,K1 K2 K3 K5 K6 K12 K14 K15 K16 K17 S2 S4 S5 S6 S8 S9,184.9,lines,K18 K19 S10 S11,K6,,K12 K14 S4 S5,0,The person says: the banana is NOT in the green box. The banana lies on the table.
+12,close-start,5,False,38,max_steps,6,3,18,16,710.7,740.5,K1 K2 K3 K5 K6 K15 K16 K17 K18 K19 S2 S6 S8 S9 S10 S11,229.5,lines,K20 S12,K18,,K15 S6,0,The person says: the banana is NOT in the green box. You are still holding the banana.
+12,close-start,6,False,32,no_tool_calls,6,2,17,12,585.3,604.0,K1 K2 K3 K5 K6 K16 K17 K18 K19 K20 S2 S8 S9 S10 S11 S12,183.6,lines,,K17 S12,,,0,The person says: the banana is NOT in the green box. The banana lies on the table.

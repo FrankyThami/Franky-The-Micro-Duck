@@ -1,0 +1,98 @@
+{
+  "run_id": "run_20261104_092346_rules_panel",
+  "started": "2026-11-04T09:23:46",
+  "command": "harness.py --brain rules --seeds 0 --kick-after 1 --panel on",
+  "brain": "RuleBrain",
+  "model": "rules",
+  "seeds": [
+    0
+  ],
+  "max_steps": 14,
+  "panel": "on",
+  "kick_after": 1,
+  "llm_options": null,
+  "ollama": null,
+  "software": {
+    "python": "3.12.8",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "mujoco": "3.17.0",
+    "onnxruntime": "1.31.1",
+    "numpy": "2.0.0"
+  },
+  "code_hashes": {
+    "duck_sim.py": "12e3bd12d2bf",
+    "franky_agent.py": "bc08e352d19b",
+    "run_harness.py": "c7264bd514be",
+    "state_tracker.py": "5c57714ea4c9",
+    "harness.py": "3c4f8a4bb5e4"
+  },
+  "system_prompt": "You are Franky, a small duck robot standing on a table. Your job: pick up the banana and put it into the green box. You act ONLY by calling one tool at a time, and after each call you see the result. Look at what you see, then call the single next tool that makes progress. If a tool fails, look again (observe) and try something else. After you place the banana, observe to check where it landed. Call done only when you see 'banana: in the green_box'.",
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "walk_to",
+        "description": "Walk toward an object until it is within reach of the beak. Use it when the object you need is NOT yet in reach.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "target": {
+              "type": "string",
+              "enum": [
+                "banana",
+                "green_box"
+              ]
+            }
+          },
+          "required": [
+            "target"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "pick",
+        "description": "Crouch and grab the banana with the beak. Only works when you hold nothing and the banana is IN REACH.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "place",
+        "description": "Crouch and let go of the banana you are holding. Only works when you hold the banana and the green box is IN REACH.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "observe",
+        "description": "Look again and report where things are.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "done",
+        "description": "Say you are finished. Only call it when observe shows 'banana: in the green_box'.",
+        "parameters": {
+          "type": "object",
+          "properties": {}
+        }
+      }
+    }
+  ]
+}

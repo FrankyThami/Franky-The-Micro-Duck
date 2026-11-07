@@ -1,0 +1,29 @@
+{
+  "note": "Franky's notebook. Written by the model itself; the weights never change.",
+  "lessons": [
+    {
+      "text": "If the banana is not in reach, walk to it before attempting to pick.",
+      "count": 1,
+      "seq": 1,
+      "first_run": "run_20261104_100114_gemma4-e2b_train",
+      "last_run": "run_20261104_100114_gemma4-e2b_train",
+      "added": "2026-11-04 10:01:45"
+    },
+    {
+      "text": "Before picking, always confirm the target is within reach before attempting to pick.",
+      "count": 3,
+      "seq": 4,
+      "first_run": "run_20261104_100114_gemma4-e2b_train",
+      "last_run": "run_20261104_100114_gemma4-e2b_train",
+      "added": "2026-11-04 10:02:15"
+    },
+    {
+      "text": "Before picking, always check if the destination is in reach before attempting to pick the item.",
+      "count": 1,
+      "seq": 5,
+      "first_run": "run_20261104_100114_gemma4-e2b_train",
+      "last_run": "run_20261104_100114_gemma4-e2b_train",
+      "added": "2026-11-04 10:03:57"
+    }
+  ]
+}

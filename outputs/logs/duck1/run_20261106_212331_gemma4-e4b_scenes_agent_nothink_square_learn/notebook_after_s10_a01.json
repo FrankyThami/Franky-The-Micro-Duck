@@ -1,0 +1,59 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 3,
+  "n_s": 1,
+  "knowledge": [
+    {
+      "id": "K1",
+      "text": "Pickup requires the banana to be within 0.10 m of the beak tip.",
+      "source": "scene 10, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-06 21:32:54"
+    },
+    {
+      "id": "K2",
+      "text": "The safety system refuses movement if the rim of a box would trip me.",
+      "source": "scene 10, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-06 21:32:54"
+    },
+    {
+      "id": "K3",
+      "text": "Small turns (e.g., 10 degrees) may not execute precisely or may be ineffective.",
+      "source": "scene 10, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-06 21:32:54"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S1",
+      "text": "Use find() repeatedly to confirm the target's relative position before attempting movement or pickup.",
+      "source": "scene 10, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-06 21:32:54"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-06 21:29:48",
+      "success": true,
+      "scene": 10,
+      "attempt": 1,
+      "steps": 16,
+      "ended": "done"
+    }
+  ]
+}

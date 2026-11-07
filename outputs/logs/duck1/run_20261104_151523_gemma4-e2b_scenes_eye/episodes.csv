@@ -1,0 +1,11 @@
+﻿run_id,episode,seed,model,brain,success,claimed_done,false_claim,ended,steps,failed_calls,no_tool_calls,panel,guard,failed_effects,loop_flags,unexpected_events,external_changes,done_rejected,llm_s,prompt_tokens,gen_tokens,sim_s,wall_s,final_banana_x,final_banana_y,final_dist_banana_to_box,memory,faults,guardrail_triggers
+run_20261104_151523_gemma4-e2b_scenes_eye,1,0,gemma4:e2b,OllamaBrain,True,True,False,done,6,0,0,off,off,0,0,0,0,0,15.8,6073,60,25.4,44.0,0.2055,-0.1596,0.041,off,none,0
+run_20261104_151523_gemma4-e2b_scenes_eye,2,1,gemma4:e2b,OllamaBrain,True,True,False,done,6,0,0,off,off,0,0,0,0,0,16.0,6073,60,26.3,56.3,0.2031,0.1929,0.032,off,none,0
+run_20261104_151523_gemma4-e2b_scenes_eye,3,2,gemma4:e2b,OllamaBrain,True,True,False,done,6,0,0,off,off,0,0,0,0,0,15.5,6073,60,24.1,42.0,0.2033,0.1507,0.029,off,none,0
+run_20261104_151523_gemma4-e2b_scenes_eye,4,3,gemma4:e2b,OllamaBrain,True,True,False,done,6,0,0,off,off,0,0,0,0,0,15.6,6073,60,26.3,45.3,0.3273,-0.2462,0.043,off,none,0
+run_20261104_151523_gemma4-e2b_scenes_eye,5,4,gemma4:e2b,OllamaBrain,True,True,False,done,6,0,0,off,off,0,0,0,0,0,15.9,6105,60,28.6,47.6,0.1163,-0.3396,0.044,off,none,0
+run_20261104_151523_gemma4-e2b_scenes_eye,6,5,gemma4:e2b,OllamaBrain,True,True,False,done,7,0,0,off,off,0,0,0,0,0,18.0,7456,69,30.5,51.8,0.1644,-0.1756,0.043,off,none,0
+run_20261104_151523_gemma4-e2b_scenes_eye,7,6,gemma4:e2b,OllamaBrain,True,True,False,done,7,0,0,off,off,0,0,0,0,0,18.0,7543,69,38.2,60.8,0.2217,-0.1399,0.03,off,none,0
+run_20261104_151523_gemma4-e2b_scenes_eye,8,7,gemma4:e2b,OllamaBrain,True,True,False,done,6,0,0,off,off,0,0,0,0,0,16.1,6111,60,35.2,55.3,-0.169,-0.1623,0.049,off,none,0
+run_20261104_151523_gemma4-e2b_scenes_eye,9,8,gemma4:e2b,OllamaBrain,True,True,False,done,6,0,0,off,off,0,0,0,0,0,16.1,6109,60,29.4,49.2,-0.0134,0.2843,0.04,off,none,0
+run_20261104_151523_gemma4-e2b_scenes_eye,10,9,gemma4:e2b,OllamaBrain,True,True,False,done,6,0,0,off,off,0,0,0,0,0,15.8,6073,60,28.8,48.0,0.2369,-0.185,0.04,off,none,0

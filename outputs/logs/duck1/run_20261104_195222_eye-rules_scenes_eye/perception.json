@@ -1,0 +1,9 @@
+{
+  "perception": "camera",
+  "code_hashes": {
+    "eye.py": "6598603f0f42",
+    "eye_tools.py": "4ba4bcbf6f62",
+    "scene_benchmark.py": "1452b82fe828",
+    "scenes.py": "996e949fa6b4"
+  }
+}

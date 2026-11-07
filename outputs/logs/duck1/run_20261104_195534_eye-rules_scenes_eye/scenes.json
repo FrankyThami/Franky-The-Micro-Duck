@@ -1,0 +1,26 @@
+{
+  "0": {
+    "name": "easy-left",
+    "banana": [
+      0.2,
+      0.12
+    ],
+    "box": [
+      0.2,
+      -0.2
+    ],
+    "note": "like the usual random seeds"
+  },
+  "5": {
+    "name": "underfoot",
+    "banana": [
+      -0.36,
+      0.0
+    ],
+    "box": [
+      0.2,
+      -0.2
+    ],
+    "note": "HARD: banana only 4 cm in front of the feet"
+  }
+}

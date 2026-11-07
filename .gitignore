@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+_backup_*.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# backups and the folders where Claude's sent files land
+_backup_*.zip
+Claude outputs/
+Franky outputs/
+
+# third-party, not part of this repo (the README, section 9, says how to get them)
+microduck_rl/
+assets/policies/
+
+# big files stay on your PC: camera frames and videos
+outputs/videos/
+outputs/logs/**/frames/

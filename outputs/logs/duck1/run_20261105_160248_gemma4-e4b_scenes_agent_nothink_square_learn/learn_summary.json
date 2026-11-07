@@ -1,0 +1,56 @@
+[
+  {
+    "scene": 10,
+    "name": "across-left",
+    "attempts": 6,
+    "solved": false,
+    "solved_at": null,
+    "results": [
+      {
+        "success": false,
+        "steps": 32,
+        "ended": "done",
+        "failed_effects": 14,
+        "llm_s": 612.6,
+        "walks": 7,
+        "close_beaks": 3
+      },
+      {
+        "success": false,
+        "steps": 15,
+        "ended": "no_tool_calls",
+        "failed_effects": 7,
+        "llm_s": 268.4,
+        "walks": 4,
+        "close_beaks": 3
+      },
+      {
+        "success": false,
+        "steps": 39,
+        "ended": "max_steps",
+        "failed_effects": 8,
+        "llm_s": 868.6,
+        "walks": 9,
+        "close_beaks": 6
+      },
+      {
+        "success": false,
+        "steps": 25,
+        "ended": "no_tool_calls",
+        "failed_effects": 10,
+        "llm_s": 552.3,
+        "walks": 4,
+        "close_beaks": 4
+      },
+      {
+        "success": false,
+        "steps": 37,
+        "ended": "no_tool_calls",
+        "failed_effects": 15,
+        "llm_s": 860.7,
+        "walks": 10,
+        "close_beaks": 4
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "10": {
+    "name": "across-left",
+    "banana": [
+      0.2,
+      0.12
+    ],
+    "box": [
+      0.2,
+      -0.2
+    ],
+    "banana_yaw": 90.0,
+    "grasp": [
+      0.1,
+      30.0,
+      0.07
+    ],
+    "note": "PRACTICE: scene 0 with the banana already across the duck's heading"
+  }
+}

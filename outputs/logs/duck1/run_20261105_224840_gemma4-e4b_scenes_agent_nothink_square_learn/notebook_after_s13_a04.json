@@ -1,0 +1,153 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 9,
+  "n_s": 4,
+  "knowledge": [
+    {
+      "id": "K1",
+      "text": "The harness will stop the attempt if 10 consecutive tool calls change nothing.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 3,
+      "wins": 1,
+      "order": 1,
+      "added": "2026-11-05 22:58:23"
+    },
+    {
+      "id": "K2",
+      "text": "The vision model returned no box in multiple pictures, including #2, #4, #8, #10, #12, #14, #16, #18, #21, #24, and #27.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 3,
+      "wins": 1,
+      "order": 2,
+      "added": "2026-11-05 22:58:23"
+    },
+    {
+      "id": "K3",
+      "text": "Walking forward 0.3 m was refused due to proximity to the table edge.",
+      "source": "scene 13, attempt 2",
+      "seen": 1,
+      "tries": 2,
+      "wins": 1,
+      "order": 3,
+      "added": "2026-11-05 23:07:48"
+    },
+    {
+      "id": "K5",
+      "text": "Movements are not exact; requested parameters (e.g., 0.1m forward, 45 degrees turn) result in actual movements that deviate (e.g., 0.13m forward, 42 degrees turn).",
+      "source": "scene 13, attempt 3",
+      "seen": 1,
+      "tries": 1,
+      "wins": 1,
+      "order": 5,
+      "added": "2026-11-05 23:18:30"
+    },
+    {
+      "id": "K6",
+      "text": "The harness stops the attempt after 10 consecutive tool calls that result in no change in the world.",
+      "source": "scene 13, attempt 3",
+      "seen": 1,
+      "tries": 1,
+      "wins": 1,
+      "order": 6,
+      "added": "2026-11-05 23:18:30"
+    },
+    {
+      "id": "K7",
+      "text": "If the banana is already held, closing the beak does nothing; opening the beak drops the banana.",
+      "source": "scene 13, attempt 4",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 7,
+      "added": "2026-11-05 23:26:12"
+    },
+    {
+      "id": "K8",
+      "text": "Walking too close to the box rim (e.g., 0.15 m) is refused because it would trip the rim.",
+      "source": "scene 13, attempt 4",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 8,
+      "added": "2026-11-05 23:26:12"
+    },
+    {
+      "id": "K9",
+      "text": "Movements are imprecise; requesting 0.05 m forward resulted in 0.04 m forward and 3 degrees turn.",
+      "source": "scene 13, attempt 4",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 9,
+      "added": "2026-11-05 23:26:12"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S2",
+      "text": "To change direction, use the walk tool and specify the turn angle, as there is no dedicated 'turn' tool.",
+      "source": "scene 13, attempt 3",
+      "seen": 1,
+      "tries": 1,
+      "wins": 1,
+      "order": 2,
+      "added": "2026-11-05 23:18:30"
+    },
+    {
+      "id": "S3",
+      "text": "To drop the banana, open the beak when you are close to the target.",
+      "source": "scene 13, attempt 4",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-05 23:26:12"
+    },
+    {
+      "id": "S4",
+      "text": "When approaching a box, use very small forward movements to avoid the trip hazard.",
+      "source": "scene 13, attempt 4",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 4,
+      "added": "2026-11-05 23:26:12"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-05 22:55:46",
+      "success": false,
+      "scene": 13,
+      "attempt": 1,
+      "steps": 27,
+      "ended": "guard_stalled"
+    },
+    {
+      "time": "2026-11-05 23:05:02",
+      "success": false,
+      "scene": 13,
+      "attempt": 2,
+      "steps": 26,
+      "ended": "done"
+    },
+    {
+      "time": "2026-11-05 23:15:31",
+      "success": false,
+      "scene": 13,
+      "attempt": 3,
+      "steps": 28,
+      "ended": "guard_stalled"
+    },
+    {
+      "time": "2026-11-05 23:23:35",
+      "success": true,
+      "scene": 13,
+      "attempt": 4,
+      "steps": 20,
+      "ended": "done"
+    }
+  ]
+}

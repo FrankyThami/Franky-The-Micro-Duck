@@ -1,0 +1,12 @@
+{
+  "run_id": "run_20261104_092829_gemma4-e2b_panel",
+  "episodes": 5,
+  "successes": 5,
+  "success_rate": 1.0,
+  "false_claims": 0,
+  "missed_goals": 10,
+  "loop_flags": 0,
+  "mean_steps": 9.0,
+  "mean_llm_s": 25.4,
+  "mean_sim_s": 22.5
+}

@@ -1,0 +1,17 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 0,
+  "n_s": 0,
+  "knowledge": [],
+  "skills": [],
+  "history": [
+    {
+      "time": "2026-11-05 18:48:02",
+      "success": false,
+      "scene": 12,
+      "attempt": 1,
+      "steps": 22,
+      "ended": "done"
+    }
+  ]
+}

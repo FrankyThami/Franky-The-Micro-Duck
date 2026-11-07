@@ -1,0 +1,6 @@
+﻿run_id,episode,seed,model,brain,success,claimed_done,false_claim,ended,steps,failed_calls,no_tool_calls,panel,guard,failed_effects,loop_flags,unexpected_events,external_changes,done_rejected,llm_s,prompt_tokens,gen_tokens,sim_s,wall_s,final_banana_x,final_banana_y,final_dist_banana_to_box,memory,faults,guardrail_triggers
+run_20261104_094929_gemma4-e2b_guard,1,0,gemma4:e2b,OllamaBrain,True,True,False,done,8,1,0,off,on,1,0,0,1,0,22.9,5373,82,21.2,23.8,0.1064,-0.1825,0.049,off,banana_kick@1,1
+run_20261104_094929_gemma4-e2b_guard,2,1,gemma4:e2b,OllamaBrain,True,True,False,done,8,1,0,off,on,1,0,0,1,0,22.3,5373,82,21.7,23.3,0.2275,0.128,0.055,off,banana_kick@1,1
+run_20261104_094929_gemma4-e2b_guard,3,2,gemma4:e2b,OllamaBrain,True,True,False,done,8,1,0,off,on,1,0,0,1,0,22.9,5373,82,22.0,23.9,0.1234,-0.1618,0.049,off,banana_kick@1,1
+run_20261104_094929_gemma4-e2b_guard,4,3,gemma4:e2b,OllamaBrain,True,True,False,done,8,1,0,off,on,1,0,0,1,0,22.9,5373,82,25.0,24.0,0.1886,-0.112,0.047,off,banana_kick@1,1
+run_20261104_094929_gemma4-e2b_guard,5,4,gemma4:e2b,OllamaBrain,True,True,False,done,8,1,0,off,on,1,0,0,1,0,22.8,5373,82,22.7,23.7,0.1315,-0.1581,0.056,off,banana_kick@1,1

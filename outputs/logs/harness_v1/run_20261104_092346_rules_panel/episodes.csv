@@ -1,0 +1,2 @@
+﻿run_id,episode,seed,model,brain,success,claimed_done,false_claim,ended,steps,failed_calls,no_tool_calls,panel,failed_effects,loop_flags,unexpected_events,external_changes,llm_s,prompt_tokens,gen_tokens,sim_s,wall_s,final_banana_x,final_banana_y,final_dist_banana_to_box,memory,faults,guardrail_triggers
+run_20261104_092346_rules_panel,1,0,rules,RuleBrain,True,True,False,done,7,0,0,on,0,0,0,1,0.0,0,0,21.2,1.1,0.1064,-0.1825,0.049,off,banana_kick@1,0

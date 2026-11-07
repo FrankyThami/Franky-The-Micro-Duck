@@ -1,0 +1,58 @@
+{
+  "12": {
+    "name": "close-start",
+    "banana": [
+      0.2,
+      0.12
+    ],
+    "box": [
+      0.2,
+      -0.2
+    ],
+    "banana_yaw": 90.0,
+    "duck": [
+      -0.12,
+      0.02
+    ],
+    "yaw": 0.0,
+    "note": "PRACTICE: scene 10, but the duck starts close: its beak tip is 0.24 m from the banana (banana 17 degrees to the left, across its heading); the box is in view"
+  },
+  "10": {
+    "name": "across-left",
+    "banana": [
+      0.2,
+      0.12
+    ],
+    "box": [
+      0.2,
+      -0.2
+    ],
+    "banana_yaw": 90.0,
+    "note": "PRACTICE: scene 0 with the banana already across the duck's heading"
+  },
+  "11": {
+    "name": "slanted-left",
+    "banana": [
+      0.2,
+      0.12
+    ],
+    "box": [
+      0.2,
+      -0.2
+    ],
+    "banana_yaw": 45.0,
+    "note": "PRACTICE: scene 0 with the banana turned half way (45 degrees)"
+  },
+  "0": {
+    "name": "easy-left",
+    "banana": [
+      0.2,
+      0.12
+    ],
+    "box": [
+      0.2,
+      -0.2
+    ],
+    "note": "like the usual random seeds"
+  }
+}

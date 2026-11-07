@@ -1,0 +1,13 @@
+{
+  "run_id": "run_20261104_100040_rules_test_mem-off",
+  "episodes": 1,
+  "successes": 1,
+  "success_rate": 1.0,
+  "false_claims": 0,
+  "missed_goals": 1,
+  "loop_flags": 0,
+  "guard_actions": 0,
+  "mean_steps": 9.0,
+  "mean_llm_s": 0.0,
+  "mean_sim_s": 22.0
+}

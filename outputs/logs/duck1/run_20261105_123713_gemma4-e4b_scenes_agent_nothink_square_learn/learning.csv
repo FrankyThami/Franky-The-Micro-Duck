@@ -1,0 +1,5 @@
+﻿scene,scene_name,attempt,success,steps,ended,walks,close_beaks,finds,failed_effects,llm_s,wall_s,notes_shown,reflect_s,reflect_mode,added,merged,forgotten,evicted,rejected,verdict
+0,easy-left,1,False,14,guard_loop,3,2,4,9,230.9,245.6,,12.9,lines,K1 S1,,,,0,The person says: the banana is NOT in the green box. The banana lies on the table.
+0,easy-left,2,False,31,guard_failures,5,3,10,12,606.0,631.3,K1 S1,14.2,lines,K2 S2,,K1,,0,The person says: the banana is NOT in the green box. You are still holding the banana.
+0,easy-left,3,False,36,guard_failures,7,5,13,12,742.6,772.6,K2 S1 S2,17.8,lines,K3 K4,S2,K2,,0,The person says: the banana is NOT in the green box. The banana lies on the table.
+0,easy-left,4,False,28,guard_failures,5,3,10,12,636.5,658.4,K3 K4 S1 S2,17.3,lines,K5 K6 S3,,K3,,0,The person says: the banana is NOT in the green box. The banana lies on the table.

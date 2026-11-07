@@ -1,0 +1,13 @@
+{
+  "run_id": "run_20261104_114420_gemma4-e2b_scenes",
+  "episodes": 10,
+  "successes": 9,
+  "success_rate": 0.9,
+  "false_claims": 0,
+  "missed_goals": 18,
+  "loop_flags": 14,
+  "guard_actions": 0,
+  "mean_steps": 7.3,
+  "mean_llm_s": 19.4,
+  "mean_sim_s": 17.9
+}

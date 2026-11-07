@@ -1,0 +1,14 @@
+{
+  "9": {
+    "name": "front-edge",
+    "banana": [
+      0.46,
+      0.05
+    ],
+    "box": [
+      0.2,
+      -0.2
+    ],
+    "note": "banana 14 cm from the table edge"
+  }
+}

@@ -1,0 +1,3273 @@
+{
+  "model": "gemma4:e2b",
+  "method": "find",
+  "ask_order": "yxyx",
+  "rows": [
+    {
+      "scene": 0,
+      "target": "banana",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 3.2,
+      "raw": "[\n  {\"box_2d\": [454, 333, 544, 371], \"label\": \"banana\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "banana",
+          "x1": 333.0,
+          "y1": 454.0,
+          "x2": 371.0,
+          "y2": 544.0
+        },
+        "err_cm": 25.4,
+        "iou": 0.0,
+        "dx": -37,
+        "dy": 213,
+        "footprint_m": [
+          0.027,
+          0.075
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "banana",
+          "x1": 454.0,
+          "y1": 333.0,
+          "x2": 544.0,
+          "y2": 371.0
+        },
+        "err_cm": 16.2,
+        "iou": 0.0,
+        "dx": 110,
+        "dy": 66,
+        "footprint_m": [
+          0.09,
+          0.058
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 0,
+      "target": "banana",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 3.6,
+      "raw": "[\n  {\"box_2d\": [334, 334, 374, 362], \"label\": \"banana\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "banana",
+          "x1": 334.0,
+          "y1": 334.0,
+          "x2": 362.0,
+          "y2": 374.0
+        },
+        "err_cm": 4.3,
+        "iou": 0.0,
+        "dx": -41,
+        "dy": 15,
+        "footprint_m": [
+          0.031,
+          0.105
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "banana",
+          "x1": 334.0,
+          "y1": 334.0,
+          "x2": 374.0,
+          "y2": 362.0
+        },
+        "err_cm": 3.9,
+        "iou": 0.0,
+        "dx": -35,
+        "dy": 9,
+        "footprint_m": [
+          0.046,
+          0.077
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 0,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 3.5,
+      "raw": "[\n  {\"box_2d\": [434, 555, 574, 691], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 555.0,
+          "y1": 434.0,
+          "x2": 691.0,
+          "y2": 574.0
+        },
+        "err_cm": 22.0,
+        "iou": 0.0,
+        "dx": -28,
+        "dy": 216,
+        "footprint_m": [
+          0.092,
+          0.114
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 434.0,
+          "y1": 555.0,
+          "x2": 574.0,
+          "y2": 691.0
+        },
+        "err_cm": 31.6,
+        "iou": 0.0,
+        "dx": -147,
+        "dy": 335,
+        "footprint_m": [
+          0.08,
+          0.075
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 0,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 3.7,
+      "raw": "[\n  {\"box_2d\": [323, 543, 392, 712], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 543.0,
+          "y1": 323.0,
+          "x2": 712.0,
+          "y2": 392.0
+        },
+        "err_cm": 0.0,
+        "iou": 0.48,
+        "dx": -24,
+        "dy": 17,
+        "footprint_m": [
+          0.176,
+          0.178
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 323.0,
+          "y1": 543.0,
+          "x2": 392.0,
+          "y2": 712.0
+        },
+        "err_cm": 37.4,
+        "iou": 0.0,
+        "dx": -294,
+        "dy": 287,
+        "footprint_m": [
+          0.035,
+          0.111
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 1,
+      "target": "banana",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 3.5,
+      "raw": "[\n  {\"box_2d\": [472, 594, 564, 634], \"label\": \"banana\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "banana",
+          "x1": 594.0,
+          "y1": 472.0,
+          "x2": 634.0,
+          "y2": 564.0
+        },
+        "err_cm": 23.0,
+        "iou": 0.0,
+        "dx": 1,
+        "dy": 210,
+        "footprint_m": [
+          0.028,
+          0.071
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "banana",
+          "x1": 472.0,
+          "y1": 594.0,
+          "x2": 564.0,
+          "y2": 634.0
+        },
+        "err_cm": 31.3,
+        "iou": 0.0,
+        "dx": -95,
+        "dy": 306,
+        "footprint_m": [
+          0.057,
+          0.022
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 1,
+      "target": "banana",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 3.6,
+      "raw": "[\n  {\"box_2d\": [346, 587, 393, 617], \"label\": \"banana\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "banana",
+          "x1": 587.0,
+          "y1": 346.0,
+          "x2": 617.0,
+          "y2": 393.0
+        },
+        "err_cm": 2.0,
+        "iou": 0.29,
+        "dx": -11,
+        "dy": 14,
+        "footprint_m": [
+          0.031,
+          0.11
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "banana",
+          "x1": 346.0,
+          "y1": 587.0,
+          "x2": 393.0,
+          "y2": 617.0
+        },
+        "err_cm": 36.9,
+        "iou": 0.0,
+        "dx": -243,
+        "dy": 246,
+        "footprint_m": [
+          0.028,
+          0.021
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 1,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 3.6,
+      "raw": "[\n  {\"box_2d\": [424, 226, 554, 376], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 226.0,
+          "y1": 424.0,
+          "x2": 376.0,
+          "y2": 554.0
+        },
+        "err_cm": 22.1,
+        "iou": 0.0,
+        "dx": -4,
+        "dy": 207,
+        "footprint_m": [
+          0.104,
+          0.113
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 424.0,
+          "y1": 226.0,
+          "x2": 554.0,
+          "y2": 376.0
+        },
+        "err_cm": 14.4,
+        "iou": 0.0,
+        "dx": 184,
+        "dy": 19,
+        "footprint_m": [
+          0.129,
+          0.315
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 1,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 3.6,
+      "raw": "[\n  {\"box_2d\": [324, 224, 386, 364], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 224.0,
+          "y1": 324.0,
+          "x2": 364.0,
+          "y2": 386.0
+        },
+        "err_cm": 0.0,
+        "iou": 0.48,
+        "dx": -11,
+        "dy": 18,
+        "footprint_m": [
+          0.147,
+          0.163
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 324.0,
+          "y1": 224.0,
+          "x2": 386.0,
+          "y2": 364.0
+        },
+        "err_cm": 5.7,
+        "iou": 0.24,
+        "dx": 50,
+        "dy": -43,
+        "footprint_m": [
+          0.07,
+          0.683
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 2,
+      "target": "banana",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 2.8,
+      "raw": "[]",
+      "yxyx": null,
+      "xyxy": null
+    },
+    {
+      "scene": 2,
+      "target": "banana",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 3.8,
+      "raw": "[\n  {\"box_2d\": [333, 423, 381, 447], \"label\": \"banana\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "banana",
+          "x1": 423.0,
+          "y1": 333.0,
+          "x2": 447.0,
+          "y2": 381.0
+        },
+        "err_cm": 6.2,
+        "iou": 0.0,
+        "dx": -51,
+        "dy": 18,
+        "footprint_m": [
+          0.026,
+          0.124
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "banana",
+          "x1": 333.0,
+          "y1": 423.0,
+          "x2": 381.0,
+          "y2": 447.0
+        },
+        "err_cm": 20.7,
+        "iou": 0.0,
+        "dx": -129,
+        "dy": 96,
+        "footprint_m": [
+          0.042,
+          0.037
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 2,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 3.6,
+      "raw": "[\n  {\"box_2d\": [425, 253, 555, 373], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 253.0,
+          "y1": 425.0,
+          "x2": 373.0,
+          "y2": 555.0
+        },
+        "err_cm": 20.2,
+        "iou": 0.0,
+        "dx": -19,
+        "dy": 199,
+        "footprint_m": [
+          0.083,
+          0.113
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 425.0,
+          "y1": 253.0,
+          "x2": 555.0,
+          "y2": 373.0
+        },
+        "err_cm": 10.5,
+        "iou": 0.0,
+        "dx": 158,
+        "dy": 22,
+        "footprint_m": [
+          0.129,
+          0.231
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 2,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 3.6,
+      "raw": "[\n  {\"box_2d\": [325, 253, 396, 373], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 253.0,
+          "y1": 325.0,
+          "x2": 373.0,
+          "y2": 396.0
+        },
+        "err_cm": 0.0,
+        "iou": 0.47,
+        "dx": -19,
+        "dy": 17,
+        "footprint_m": [
+          0.122,
+          0.18
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 325.0,
+          "y1": 253.0,
+          "x2": 396.0,
+          "y2": 373.0
+        },
+        "err_cm": 0.2,
+        "iou": 0.3,
+        "dx": 28,
+        "dy": -30,
+        "footprint_m": [
+          0.078,
+          0.469
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 3,
+      "target": "banana",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 2.8,
+      "raw": "[]",
+      "yxyx": null,
+      "xyxy": null
+    },
+    {
+      "scene": 3,
+      "target": "banana",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 2.9,
+      "raw": "[]",
+      "yxyx": null,
+      "xyxy": null
+    },
+    {
+      "scene": 3,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 3.6,
+      "raw": "[\n  {\"box_2d\": [374, 564, 484, 711], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 564.0,
+          "y1": 374.0,
+          "x2": 711.0,
+          "y2": 484.0
+        },
+        "err_cm": 25.9,
+        "iou": 0.0,
+        "dx": -48,
+        "dy": 182,
+        "footprint_m": [
+          0.117,
+          0.12
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 374.0,
+          "y1": 564.0,
+          "x2": 484.0,
+          "y2": 711.0
+        },
+        "err_cm": 46.7,
+        "iou": 0.0,
+        "dx": -256,
+        "dy": 391,
+        "footprint_m": [
+          0.061,
+          0.078
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 3,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 3.7,
+      "raw": "[\n  {\"box_2d\": [313, 563, 364, 723], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 563.0,
+          "y1": 313.0,
+          "x2": 723.0,
+          "y2": 364.0
+        },
+        "err_cm": 2.8,
+        "iou": 0.2,
+        "dx": -42,
+        "dy": 28,
+        "footprint_m": [
+          0.184,
+          0.151
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 313.0,
+          "y1": 563.0,
+          "x2": 364.0,
+          "y2": 723.0
+        },
+        "err_cm": 51.4,
+        "iou": 0.0,
+        "dx": -347,
+        "dy": 333,
+        "footprint_m": [
+          0.025,
+          0.099
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 4,
+      "target": "banana",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 3.5,
+      "raw": "[\n  {\"box_2d\": [513, 103, 621, 173], \"label\": \"banana\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "banana",
+          "x1": 103.0,
+          "y1": 513.0,
+          "x2": 173.0,
+          "y2": 621.0
+        },
+        "err_cm": 24.5,
+        "iou": 0.0,
+        "dx": 8,
+        "dy": 225,
+        "footprint_m": [
+          0.044,
+          0.072
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "banana",
+          "x1": 513.0,
+          "y1": 103.0,
+          "x2": 621.0,
+          "y2": 173.0
+        },
+        "err_cm": 84.7,
+        "iou": 0.0,
+        "dx": 437,
+        "dy": -204,
+        "footprint_m": [
+          0.205,
+          0.504
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 4,
+      "target": "banana",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 3.7,
+      "raw": "[\n  {\"box_2d\": [384, 114, 434, 172], \"label\": \"banana\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "banana",
+          "x1": 114.0,
+          "y1": 384.0,
+          "x2": 172.0,
+          "y2": 434.0
+        },
+        "err_cm": 5.0,
+        "iou": 0.21,
+        "dx": 13,
+        "dy": 28,
+        "footprint_m": [
+          0.052,
+          0.091
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "banana",
+          "x1": 384.0,
+          "y1": 114.0,
+          "x2": 434.0,
+          "y2": 172.0
+        },
+        "err_cm": null,
+        "iou": 0.0,
+        "dx": 279,
+        "dy": -238,
+        "footprint_m": null,
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 4,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 3.6,
+      "raw": "[\n  {\"box_2d\": [464, 714, 631, 964], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 714.0,
+          "y1": 464.0,
+          "x2": 964.0,
+          "y2": 631.0
+        },
+        "err_cm": 16.4,
+        "iou": 0.0,
+        "dx": -1,
+        "dy": 209,
+        "footprint_m": [
+          0.156,
+          0.117
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 464.0,
+          "y1": 714.0,
+          "x2": 631.0,
+          "y2": 964.0
+        },
+        "err_cm": 39.6,
+        "iou": 0.0,
+        "dx": -293,
+        "dy": 500,
+        "footprint_m": [
+          0.07,
+          0.08
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 4,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 3.7,
+      "raw": "[\n  {\"box_2d\": [348, 714, 434, 962], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 714.0,
+          "y1": 348.0,
+          "x2": 962.0,
+          "y2": 434.0
+        },
+        "err_cm": 0.0,
+        "iou": 0.72,
+        "dx": -2,
+        "dy": 12,
+        "footprint_m": [
+          0.229,
+          0.175
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 348.0,
+          "y1": 714.0,
+          "x2": 434.0,
+          "y2": 962.0
+        },
+        "err_cm": 46.6,
+        "iou": 0.0,
+        "dx": -449,
+        "dy": 459,
+        "footprint_m": null,
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 5,
+      "target": "banana",
+      "method": "-",
+      "visible": false
+    },
+    {
+      "scene": 5,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 3.2,
+      "raw": "[\n  {\"box_2d\": [425, 535, 555, 685], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 535.0,
+          "y1": 425.0,
+          "x2": 685.0,
+          "y2": 555.0
+        },
+        "err_cm": 20.9,
+        "iou": 0.0,
+        "dx": -41,
+        "dy": 202,
+        "footprint_m": [
+          0.105,
+          0.112
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 425.0,
+          "y1": 535.0,
+          "x2": 555.0,
+          "y2": 685.0
+        },
+        "err_cm": 31.2,
+        "iou": 0.0,
+        "dx": -161,
+        "dy": 322,
+        "footprint_m": [
+          0.075,
+          0.087
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 5,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 3.7,
+      "raw": "[\n  {\"box_2d\": [325, 525, 391, 713], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 525.0,
+          "y1": 325.0,
+          "x2": 713.0,
+          "y2": 391.0
+        },
+        "err_cm": 0.0,
+        "iou": 0.43,
+        "dx": -32,
+        "dy": 17,
+        "footprint_m": [
+          0.197,
+          0.169
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 325.0,
+          "y1": 525.0,
+          "x2": 391.0,
+          "y2": 713.0
+        },
+        "err_cm": 37.0,
+        "iou": 0.0,
+        "dx": -293,
+        "dy": 278,
+        "footprint_m": [
+          0.033,
+          0.128
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 6,
+      "target": "banana",
+      "method": "-",
+      "visible": false
+    },
+    {
+      "scene": 6,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 3.3,
+      "raw": "[\n  {\"box_2d\": [394, 555, 623, 885], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 555.0,
+          "y1": 394.0,
+          "x2": 885.0,
+          "y2": 623.0
+        },
+        "err_cm": 0.0,
+        "iou": 0.42,
+        "dx": -24,
+        "dy": -93,
+        "footprint_m": [
+          0.208,
+          0.188
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 394.0,
+          "y1": 555.0,
+          "x2": 623.0,
+          "y2": 885.0
+        },
+        "err_cm": 5.9,
+        "iou": 0.06,
+        "dx": -236,
+        "dy": 119,
+        "footprint_m": [
+          0.103,
+          0.145
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 6,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 3.8,
+      "raw": "[\n  {\"box_2d\": [486, 545, 718, 926], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 545.0,
+          "y1": 486.0,
+          "x2": 926.0,
+          "y2": 718.0
+        },
+        "err_cm": 0.0,
+        "iou": 0.72,
+        "dx": -9,
+        "dy": 26,
+        "footprint_m": [
+          0.192,
+          0.17
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 486.0,
+          "y1": 545.0,
+          "x2": 718.0,
+          "y2": 926.0
+        },
+        "err_cm": 3.3,
+        "iou": 0.14,
+        "dx": -142,
+        "dy": 159,
+        "footprint_m": null,
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 7,
+      "target": "banana",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 3.5,
+      "raw": "[\n  {\"box_2d\": [444, 314, 514, 344], \"label\": \"banana\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "banana",
+          "x1": 314.0,
+          "y1": 444.0,
+          "x2": 344.0,
+          "y2": 514.0
+        },
+        "err_cm": 28.7,
+        "iou": 0.0,
+        "dx": -44,
+        "dy": 214,
+        "footprint_m": [
+          0.022,
+          0.063
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "banana",
+          "x1": 444.0,
+          "y1": 314.0,
+          "x2": 514.0,
+          "y2": 344.0
+        },
+        "err_cm": 17.6,
+        "iou": 0.0,
+        "dx": 106,
+        "dy": 64,
+        "footprint_m": [
+          0.075,
+          0.052
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 7,
+      "target": "banana",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 3.5,
+      "raw": "[\n  {\"box_2d\": [324, 314, 362, 342], \"label\": \"banana\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "banana",
+          "x1": 314.0,
+          "y1": 324.0,
+          "x2": 342.0,
+          "y2": 362.0
+        },
+        "err_cm": 5.1,
+        "iou": 0.0,
+        "dx": -45,
+        "dy": 20,
+        "footprint_m": [
+          0.032,
+          0.109
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "banana",
+          "x1": 324.0,
+          "y1": 314.0,
+          "x2": 362.0,
+          "y2": 342.0
+        },
+        "err_cm": 3.6,
+        "iou": 0.03,
+        "dx": -30,
+        "dy": 5,
+        "footprint_m": [
+          0.047,
+          0.09
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 7,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 3.7,
+      "raw": "[\n  {\"box_2d\": [494, 612, 834, 1000], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 612.0,
+          "y1": 494.0,
+          "x2": 1000.0,
+          "y2": 834.0
+        },
+        "err_cm": 0.0,
+        "iou": 0.6,
+        "dx": -70,
+        "dy": -36,
+        "footprint_m": [
+          0.187,
+          0.173
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 494.0,
+          "y1": 612.0,
+          "x2": 834.0,
+          "y2": 1000.0
+        },
+        "err_cm": 3.4,
+        "iou": 0.2,
+        "dx": -212,
+        "dy": 106,
+        "footprint_m": [
+          0.137,
+          0.138
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 7,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 3.6,
+      "raw": "[\n  {\"box_2d\": [493, 614, 814, 1000], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 614.0,
+          "y1": 493.0,
+          "x2": 1000.0,
+          "y2": 814.0
+        },
+        "err_cm": 0.0,
+        "iou": 0.63,
+        "dx": -69,
+        "dy": 4,
+        "footprint_m": [
+          0.169,
+          0.2
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 493.0,
+          "y1": 614.0,
+          "x2": 814.0,
+          "y2": 1000.0
+        },
+        "err_cm": 4.9,
+        "iou": 0.13,
+        "dx": -223,
+        "dy": 157,
+        "footprint_m": null,
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 8,
+      "target": "banana",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 3.5,
+      "raw": "[\n  {\"box_2d\": [296, 634, 381, 684], \"label\": \"banana\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "banana",
+          "x1": 634.0,
+          "y1": 296.0,
+          "x2": 684.0,
+          "y2": 381.0
+        },
+        "err_cm": 27.7,
+        "iou": 0.0,
+        "dx": -16,
+        "dy": 120,
+        "footprint_m": [
+          0.049,
+          0.14
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "banana",
+          "x1": 296.0,
+          "y1": 634.0,
+          "x2": 381.0,
+          "y2": 684.0
+        },
+        "err_cm": 66.2,
+        "iou": 0.0,
+        "dx": -336,
+        "dy": 441,
+        "footprint_m": [
+          0.049,
+          0.025
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 8,
+      "target": "banana",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 3.7,
+      "raw": "[\n  {\"box_2d\": [284, 614, 323, 642], \"label\": \"banana\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "banana",
+          "x1": 614.0,
+          "y1": 284.0,
+          "x2": 642.0,
+          "y2": 323.0
+        },
+        "err_cm": 9.6,
+        "iou": 0.0,
+        "dx": -47,
+        "dy": 15,
+        "footprint_m": [
+          0.038,
+          0.156
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "banana",
+          "x1": 284.0,
+          "y1": 614.0,
+          "x2": 323.0,
+          "y2": 642.0
+        },
+        "err_cm": 67.7,
+        "iou": 0.0,
+        "dx": -371,
+        "dy": 339,
+        "footprint_m": [
+          0.022,
+          0.018
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 8,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 3.5,
+      "raw": "[\n  {\"box_2d\": [612, 0, 784, 253], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 0.0,
+          "y1": 612.0,
+          "x2": 253.0,
+          "y2": 784.0
+        },
+        "err_cm": 7.9,
+        "iou": 0.0,
+        "dx": 34,
+        "dy": 222,
+        "footprint_m": [
+          0.127,
+          0.078
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 612.0,
+          "y1": 0.0,
+          "x2": 784.0,
+          "y2": 253.0
+        },
+        "err_cm": 110.2,
+        "iou": 0.0,
+        "dx": 606,
+        "dy": -350,
+        "footprint_m": null,
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 8,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 3.6,
+      "raw": "[\n  {\"box_2d\": [422, 0, 584, 264], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 0.0,
+          "y1": 422.0,
+          "x2": 264.0,
+          "y2": 584.0
+        },
+        "err_cm": 0.0,
+        "iou": 0.61,
+        "dx": 40,
+        "dy": 21,
+        "footprint_m": [
+          0.167,
+          0.183
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 422.0,
+          "y1": 0.0,
+          "x2": 584.0,
+          "y2": 264.0
+        },
+        "err_cm": null,
+        "iou": 0.0,
+        "dx": 411,
+        "dy": -350,
+        "footprint_m": null,
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 9,
+      "target": "banana",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 3.6,
+      "raw": "[\n  {\"box_2d\": [333, 413, 383, 433], \"label\": \"banana\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "banana",
+          "x1": 413.0,
+          "y1": 333.0,
+          "x2": 433.0,
+          "y2": 383.0
+        },
+        "err_cm": 35.9,
+        "iou": 0.0,
+        "dx": -32,
+        "dy": 160,
+        "footprint_m": [
+          0.019,
+          0.075
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "banana",
+          "x1": 333.0,
+          "y1": 413.0,
+          "x2": 383.0,
+          "y2": 433.0
+        },
+        "err_cm": 44.5,
+        "iou": 0.0,
+        "dx": -97,
+        "dy": 225,
+        "footprint_m": [
+          0.043,
+          0.022
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 9,
+      "target": "banana",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 3.6,
+      "raw": "[\n  {\"box_2d\": [277, 424, 311, 444], \"label\": \"banana\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "banana",
+          "x1": 424.0,
+          "y1": 277.0,
+          "x2": 444.0,
+          "y2": 311.0
+        },
+        "err_cm": 7.3,
+        "iou": 0.0,
+        "dx": -21,
+        "dy": 21,
+        "footprint_m": [
+          0.028,
+          0.148
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "banana",
+          "x1": 277.0,
+          "y1": 424.0,
+          "x2": 311.0,
+          "y2": 444.0
+        },
+        "err_cm": 44.5,
+        "iou": 0.0,
+        "dx": -161,
+        "dy": 161,
+        "footprint_m": [
+          0.03,
+          0.031
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 9,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "visible": true,
+      "llm_s": 3.5,
+      "raw": "[\n  {\"box_2d\": [433, 535, 564, 687], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 535.0,
+          "y1": 433.0,
+          "x2": 687.0,
+          "y2": 564.0
+        },
+        "err_cm": 21.6,
+        "iou": 0.0,
+        "dx": -40,
+        "dy": 211,
+        "footprint_m": [
+          0.105,
+          0.109
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 433.0,
+          "y1": 535.0,
+          "x2": 564.0,
+          "y2": 687.0
+        },
+        "err_cm": 31.1,
+        "iou": 0.0,
+        "dx": -153,
+        "dy": 323,
+        "footprint_m": [
+          0.075,
+          0.087
+        ],
+        "n_boxes": 1
+      }
+    },
+    {
+      "scene": 9,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "visible": true,
+      "llm_s": 3.6,
+      "raw": "[\n  {\"box_2d\": [323, 533, 392, 706], \"label\": \"green box\"}\n]",
+      "yxyx": {
+        "box": {
+          "label": "green box",
+          "x1": 533.0,
+          "y1": 323.0,
+          "x2": 706.0,
+          "y2": 392.0
+        },
+        "err_cm": 0.0,
+        "iou": 0.44,
+        "dx": -32,
+        "dy": 17,
+        "footprint_m": [
+          0.181,
+          0.178
+        ],
+        "n_boxes": 1
+      },
+      "xyxy": {
+        "box": {
+          "label": "green box",
+          "x1": 323.0,
+          "y1": 533.0,
+          "x2": 392.0,
+          "y2": 706.0
+        },
+        "err_cm": 37.0,
+        "iou": 0.0,
+        "dx": -294,
+        "dy": 279,
+        "footprint_m": [
+          0.035,
+          0.117
+        ],
+        "n_boxes": 1
+      }
+    }
+  ],
+  "log": [
+    {
+      "scene": 0,
+      "target": "banana",
+      "method": "find",
+      "mode": "native",
+      "raw": "[\n  {\"box_2d\": [454, 333, 544, 371], \"label\": \"banana\"}\n]",
+      "row": {
+        "scene": 0,
+        "target": "banana",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 3.2,
+        "raw": "[\n  {\"box_2d\": [454, 333, 544, 371], \"label\": \"banana\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "banana",
+            "x1": 333.0,
+            "y1": 454.0,
+            "x2": 371.0,
+            "y2": 544.0
+          },
+          "err_cm": 25.4,
+          "iou": 0.0,
+          "dx": -37,
+          "dy": 213,
+          "footprint_m": [
+            0.027,
+            0.075
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "banana",
+            "x1": 454.0,
+            "y1": 333.0,
+            "x2": 544.0,
+            "y2": 371.0
+          },
+          "err_cm": 16.2,
+          "iou": 0.0,
+          "dx": 110,
+          "dy": 66,
+          "footprint_m": [
+            0.09,
+            0.058
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 0,
+      "target": "banana",
+      "method": "find",
+      "mode": "square",
+      "raw": "[\n  {\"box_2d\": [334, 334, 374, 362], \"label\": \"banana\"}\n]",
+      "row": {
+        "scene": 0,
+        "target": "banana",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 3.6,
+        "raw": "[\n  {\"box_2d\": [334, 334, 374, 362], \"label\": \"banana\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "banana",
+            "x1": 334.0,
+            "y1": 334.0,
+            "x2": 362.0,
+            "y2": 374.0
+          },
+          "err_cm": 4.3,
+          "iou": 0.0,
+          "dx": -41,
+          "dy": 15,
+          "footprint_m": [
+            0.031,
+            0.105
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "banana",
+            "x1": 334.0,
+            "y1": 334.0,
+            "x2": 374.0,
+            "y2": 362.0
+          },
+          "err_cm": 3.9,
+          "iou": 0.0,
+          "dx": -35,
+          "dy": 9,
+          "footprint_m": [
+            0.046,
+            0.077
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 0,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "raw": "[\n  {\"box_2d\": [434, 555, 574, 691], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 0,
+        "target": "box",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 3.5,
+        "raw": "[\n  {\"box_2d\": [434, 555, 574, 691], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 555.0,
+            "y1": 434.0,
+            "x2": 691.0,
+            "y2": 574.0
+          },
+          "err_cm": 22.0,
+          "iou": 0.0,
+          "dx": -28,
+          "dy": 216,
+          "footprint_m": [
+            0.092,
+            0.114
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 434.0,
+            "y1": 555.0,
+            "x2": 574.0,
+            "y2": 691.0
+          },
+          "err_cm": 31.6,
+          "iou": 0.0,
+          "dx": -147,
+          "dy": 335,
+          "footprint_m": [
+            0.08,
+            0.075
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 0,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "raw": "[\n  {\"box_2d\": [323, 543, 392, 712], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 0,
+        "target": "box",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 3.7,
+        "raw": "[\n  {\"box_2d\": [323, 543, 392, 712], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 543.0,
+            "y1": 323.0,
+            "x2": 712.0,
+            "y2": 392.0
+          },
+          "err_cm": 0.0,
+          "iou": 0.48,
+          "dx": -24,
+          "dy": 17,
+          "footprint_m": [
+            0.176,
+            0.178
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 323.0,
+            "y1": 543.0,
+            "x2": 392.0,
+            "y2": 712.0
+          },
+          "err_cm": 37.4,
+          "iou": 0.0,
+          "dx": -294,
+          "dy": 287,
+          "footprint_m": [
+            0.035,
+            0.111
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 1,
+      "target": "banana",
+      "method": "find",
+      "mode": "native",
+      "raw": "[\n  {\"box_2d\": [472, 594, 564, 634], \"label\": \"banana\"}\n]",
+      "row": {
+        "scene": 1,
+        "target": "banana",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 3.5,
+        "raw": "[\n  {\"box_2d\": [472, 594, 564, 634], \"label\": \"banana\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "banana",
+            "x1": 594.0,
+            "y1": 472.0,
+            "x2": 634.0,
+            "y2": 564.0
+          },
+          "err_cm": 23.0,
+          "iou": 0.0,
+          "dx": 1,
+          "dy": 210,
+          "footprint_m": [
+            0.028,
+            0.071
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "banana",
+            "x1": 472.0,
+            "y1": 594.0,
+            "x2": 564.0,
+            "y2": 634.0
+          },
+          "err_cm": 31.3,
+          "iou": 0.0,
+          "dx": -95,
+          "dy": 306,
+          "footprint_m": [
+            0.057,
+            0.022
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 1,
+      "target": "banana",
+      "method": "find",
+      "mode": "square",
+      "raw": "[\n  {\"box_2d\": [346, 587, 393, 617], \"label\": \"banana\"}\n]",
+      "row": {
+        "scene": 1,
+        "target": "banana",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 3.6,
+        "raw": "[\n  {\"box_2d\": [346, 587, 393, 617], \"label\": \"banana\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "banana",
+            "x1": 587.0,
+            "y1": 346.0,
+            "x2": 617.0,
+            "y2": 393.0
+          },
+          "err_cm": 2.0,
+          "iou": 0.29,
+          "dx": -11,
+          "dy": 14,
+          "footprint_m": [
+            0.031,
+            0.11
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "banana",
+            "x1": 346.0,
+            "y1": 587.0,
+            "x2": 393.0,
+            "y2": 617.0
+          },
+          "err_cm": 36.9,
+          "iou": 0.0,
+          "dx": -243,
+          "dy": 246,
+          "footprint_m": [
+            0.028,
+            0.021
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 1,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "raw": "[\n  {\"box_2d\": [424, 226, 554, 376], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 1,
+        "target": "box",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 3.6,
+        "raw": "[\n  {\"box_2d\": [424, 226, 554, 376], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 226.0,
+            "y1": 424.0,
+            "x2": 376.0,
+            "y2": 554.0
+          },
+          "err_cm": 22.1,
+          "iou": 0.0,
+          "dx": -4,
+          "dy": 207,
+          "footprint_m": [
+            0.104,
+            0.113
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 424.0,
+            "y1": 226.0,
+            "x2": 554.0,
+            "y2": 376.0
+          },
+          "err_cm": 14.4,
+          "iou": 0.0,
+          "dx": 184,
+          "dy": 19,
+          "footprint_m": [
+            0.129,
+            0.315
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 1,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "raw": "[\n  {\"box_2d\": [324, 224, 386, 364], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 1,
+        "target": "box",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 3.6,
+        "raw": "[\n  {\"box_2d\": [324, 224, 386, 364], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 224.0,
+            "y1": 324.0,
+            "x2": 364.0,
+            "y2": 386.0
+          },
+          "err_cm": 0.0,
+          "iou": 0.48,
+          "dx": -11,
+          "dy": 18,
+          "footprint_m": [
+            0.147,
+            0.163
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 324.0,
+            "y1": 224.0,
+            "x2": 386.0,
+            "y2": 364.0
+          },
+          "err_cm": 5.7,
+          "iou": 0.24,
+          "dx": 50,
+          "dy": -43,
+          "footprint_m": [
+            0.07,
+            0.683
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 2,
+      "target": "banana",
+      "method": "find",
+      "mode": "native",
+      "raw": "[]",
+      "row": {
+        "scene": 2,
+        "target": "banana",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 2.8,
+        "raw": "[]",
+        "yxyx": null,
+        "xyxy": null
+      }
+    },
+    {
+      "scene": 2,
+      "target": "banana",
+      "method": "find",
+      "mode": "square",
+      "raw": "[\n  {\"box_2d\": [333, 423, 381, 447], \"label\": \"banana\"}\n]",
+      "row": {
+        "scene": 2,
+        "target": "banana",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 3.8,
+        "raw": "[\n  {\"box_2d\": [333, 423, 381, 447], \"label\": \"banana\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "banana",
+            "x1": 423.0,
+            "y1": 333.0,
+            "x2": 447.0,
+            "y2": 381.0
+          },
+          "err_cm": 6.2,
+          "iou": 0.0,
+          "dx": -51,
+          "dy": 18,
+          "footprint_m": [
+            0.026,
+            0.124
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "banana",
+            "x1": 333.0,
+            "y1": 423.0,
+            "x2": 381.0,
+            "y2": 447.0
+          },
+          "err_cm": 20.7,
+          "iou": 0.0,
+          "dx": -129,
+          "dy": 96,
+          "footprint_m": [
+            0.042,
+            0.037
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 2,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "raw": "[\n  {\"box_2d\": [425, 253, 555, 373], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 2,
+        "target": "box",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 3.6,
+        "raw": "[\n  {\"box_2d\": [425, 253, 555, 373], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 253.0,
+            "y1": 425.0,
+            "x2": 373.0,
+            "y2": 555.0
+          },
+          "err_cm": 20.2,
+          "iou": 0.0,
+          "dx": -19,
+          "dy": 199,
+          "footprint_m": [
+            0.083,
+            0.113
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 425.0,
+            "y1": 253.0,
+            "x2": 555.0,
+            "y2": 373.0
+          },
+          "err_cm": 10.5,
+          "iou": 0.0,
+          "dx": 158,
+          "dy": 22,
+          "footprint_m": [
+            0.129,
+            0.231
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 2,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "raw": "[\n  {\"box_2d\": [325, 253, 396, 373], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 2,
+        "target": "box",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 3.6,
+        "raw": "[\n  {\"box_2d\": [325, 253, 396, 373], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 253.0,
+            "y1": 325.0,
+            "x2": 373.0,
+            "y2": 396.0
+          },
+          "err_cm": 0.0,
+          "iou": 0.47,
+          "dx": -19,
+          "dy": 17,
+          "footprint_m": [
+            0.122,
+            0.18
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 325.0,
+            "y1": 253.0,
+            "x2": 396.0,
+            "y2": 373.0
+          },
+          "err_cm": 0.2,
+          "iou": 0.3,
+          "dx": 28,
+          "dy": -30,
+          "footprint_m": [
+            0.078,
+            0.469
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 3,
+      "target": "banana",
+      "method": "find",
+      "mode": "native",
+      "raw": "[]",
+      "row": {
+        "scene": 3,
+        "target": "banana",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 2.8,
+        "raw": "[]",
+        "yxyx": null,
+        "xyxy": null
+      }
+    },
+    {
+      "scene": 3,
+      "target": "banana",
+      "method": "find",
+      "mode": "square",
+      "raw": "[]",
+      "row": {
+        "scene": 3,
+        "target": "banana",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 2.9,
+        "raw": "[]",
+        "yxyx": null,
+        "xyxy": null
+      }
+    },
+    {
+      "scene": 3,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "raw": "[\n  {\"box_2d\": [374, 564, 484, 711], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 3,
+        "target": "box",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 3.6,
+        "raw": "[\n  {\"box_2d\": [374, 564, 484, 711], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 564.0,
+            "y1": 374.0,
+            "x2": 711.0,
+            "y2": 484.0
+          },
+          "err_cm": 25.9,
+          "iou": 0.0,
+          "dx": -48,
+          "dy": 182,
+          "footprint_m": [
+            0.117,
+            0.12
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 374.0,
+            "y1": 564.0,
+            "x2": 484.0,
+            "y2": 711.0
+          },
+          "err_cm": 46.7,
+          "iou": 0.0,
+          "dx": -256,
+          "dy": 391,
+          "footprint_m": [
+            0.061,
+            0.078
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 3,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "raw": "[\n  {\"box_2d\": [313, 563, 364, 723], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 3,
+        "target": "box",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 3.7,
+        "raw": "[\n  {\"box_2d\": [313, 563, 364, 723], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 563.0,
+            "y1": 313.0,
+            "x2": 723.0,
+            "y2": 364.0
+          },
+          "err_cm": 2.8,
+          "iou": 0.2,
+          "dx": -42,
+          "dy": 28,
+          "footprint_m": [
+            0.184,
+            0.151
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 313.0,
+            "y1": 563.0,
+            "x2": 364.0,
+            "y2": 723.0
+          },
+          "err_cm": 51.4,
+          "iou": 0.0,
+          "dx": -347,
+          "dy": 333,
+          "footprint_m": [
+            0.025,
+            0.099
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 4,
+      "target": "banana",
+      "method": "find",
+      "mode": "native",
+      "raw": "[\n  {\"box_2d\": [513, 103, 621, 173], \"label\": \"banana\"}\n]",
+      "row": {
+        "scene": 4,
+        "target": "banana",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 3.5,
+        "raw": "[\n  {\"box_2d\": [513, 103, 621, 173], \"label\": \"banana\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "banana",
+            "x1": 103.0,
+            "y1": 513.0,
+            "x2": 173.0,
+            "y2": 621.0
+          },
+          "err_cm": 24.5,
+          "iou": 0.0,
+          "dx": 8,
+          "dy": 225,
+          "footprint_m": [
+            0.044,
+            0.072
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "banana",
+            "x1": 513.0,
+            "y1": 103.0,
+            "x2": 621.0,
+            "y2": 173.0
+          },
+          "err_cm": 84.7,
+          "iou": 0.0,
+          "dx": 437,
+          "dy": -204,
+          "footprint_m": [
+            0.205,
+            0.504
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 4,
+      "target": "banana",
+      "method": "find",
+      "mode": "square",
+      "raw": "[\n  {\"box_2d\": [384, 114, 434, 172], \"label\": \"banana\"}\n]",
+      "row": {
+        "scene": 4,
+        "target": "banana",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 3.7,
+        "raw": "[\n  {\"box_2d\": [384, 114, 434, 172], \"label\": \"banana\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "banana",
+            "x1": 114.0,
+            "y1": 384.0,
+            "x2": 172.0,
+            "y2": 434.0
+          },
+          "err_cm": 5.0,
+          "iou": 0.21,
+          "dx": 13,
+          "dy": 28,
+          "footprint_m": [
+            0.052,
+            0.091
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "banana",
+            "x1": 384.0,
+            "y1": 114.0,
+            "x2": 434.0,
+            "y2": 172.0
+          },
+          "err_cm": null,
+          "iou": 0.0,
+          "dx": 279,
+          "dy": -238,
+          "footprint_m": null,
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 4,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "raw": "[\n  {\"box_2d\": [464, 714, 631, 964], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 4,
+        "target": "box",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 3.6,
+        "raw": "[\n  {\"box_2d\": [464, 714, 631, 964], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 714.0,
+            "y1": 464.0,
+            "x2": 964.0,
+            "y2": 631.0
+          },
+          "err_cm": 16.4,
+          "iou": 0.0,
+          "dx": -1,
+          "dy": 209,
+          "footprint_m": [
+            0.156,
+            0.117
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 464.0,
+            "y1": 714.0,
+            "x2": 631.0,
+            "y2": 964.0
+          },
+          "err_cm": 39.6,
+          "iou": 0.0,
+          "dx": -293,
+          "dy": 500,
+          "footprint_m": [
+            0.07,
+            0.08
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 4,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "raw": "[\n  {\"box_2d\": [348, 714, 434, 962], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 4,
+        "target": "box",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 3.7,
+        "raw": "[\n  {\"box_2d\": [348, 714, 434, 962], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 714.0,
+            "y1": 348.0,
+            "x2": 962.0,
+            "y2": 434.0
+          },
+          "err_cm": 0.0,
+          "iou": 0.72,
+          "dx": -2,
+          "dy": 12,
+          "footprint_m": [
+            0.229,
+            0.175
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 348.0,
+            "y1": 714.0,
+            "x2": 434.0,
+            "y2": 962.0
+          },
+          "err_cm": 46.6,
+          "iou": 0.0,
+          "dx": -449,
+          "dy": 459,
+          "footprint_m": null,
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 5,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "raw": "[\n  {\"box_2d\": [425, 535, 555, 685], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 5,
+        "target": "box",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 3.2,
+        "raw": "[\n  {\"box_2d\": [425, 535, 555, 685], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 535.0,
+            "y1": 425.0,
+            "x2": 685.0,
+            "y2": 555.0
+          },
+          "err_cm": 20.9,
+          "iou": 0.0,
+          "dx": -41,
+          "dy": 202,
+          "footprint_m": [
+            0.105,
+            0.112
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 425.0,
+            "y1": 535.0,
+            "x2": 555.0,
+            "y2": 685.0
+          },
+          "err_cm": 31.2,
+          "iou": 0.0,
+          "dx": -161,
+          "dy": 322,
+          "footprint_m": [
+            0.075,
+            0.087
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 5,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "raw": "[\n  {\"box_2d\": [325, 525, 391, 713], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 5,
+        "target": "box",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 3.7,
+        "raw": "[\n  {\"box_2d\": [325, 525, 391, 713], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 525.0,
+            "y1": 325.0,
+            "x2": 713.0,
+            "y2": 391.0
+          },
+          "err_cm": 0.0,
+          "iou": 0.43,
+          "dx": -32,
+          "dy": 17,
+          "footprint_m": [
+            0.197,
+            0.169
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 325.0,
+            "y1": 525.0,
+            "x2": 391.0,
+            "y2": 713.0
+          },
+          "err_cm": 37.0,
+          "iou": 0.0,
+          "dx": -293,
+          "dy": 278,
+          "footprint_m": [
+            0.033,
+            0.128
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 6,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "raw": "[\n  {\"box_2d\": [394, 555, 623, 885], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 6,
+        "target": "box",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 3.3,
+        "raw": "[\n  {\"box_2d\": [394, 555, 623, 885], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 555.0,
+            "y1": 394.0,
+            "x2": 885.0,
+            "y2": 623.0
+          },
+          "err_cm": 0.0,
+          "iou": 0.42,
+          "dx": -24,
+          "dy": -93,
+          "footprint_m": [
+            0.208,
+            0.188
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 394.0,
+            "y1": 555.0,
+            "x2": 623.0,
+            "y2": 885.0
+          },
+          "err_cm": 5.9,
+          "iou": 0.06,
+          "dx": -236,
+          "dy": 119,
+          "footprint_m": [
+            0.103,
+            0.145
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 6,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "raw": "[\n  {\"box_2d\": [486, 545, 718, 926], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 6,
+        "target": "box",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 3.8,
+        "raw": "[\n  {\"box_2d\": [486, 545, 718, 926], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 545.0,
+            "y1": 486.0,
+            "x2": 926.0,
+            "y2": 718.0
+          },
+          "err_cm": 0.0,
+          "iou": 0.72,
+          "dx": -9,
+          "dy": 26,
+          "footprint_m": [
+            0.192,
+            0.17
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 486.0,
+            "y1": 545.0,
+            "x2": 718.0,
+            "y2": 926.0
+          },
+          "err_cm": 3.3,
+          "iou": 0.14,
+          "dx": -142,
+          "dy": 159,
+          "footprint_m": null,
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 7,
+      "target": "banana",
+      "method": "find",
+      "mode": "native",
+      "raw": "[\n  {\"box_2d\": [444, 314, 514, 344], \"label\": \"banana\"}\n]",
+      "row": {
+        "scene": 7,
+        "target": "banana",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 3.5,
+        "raw": "[\n  {\"box_2d\": [444, 314, 514, 344], \"label\": \"banana\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "banana",
+            "x1": 314.0,
+            "y1": 444.0,
+            "x2": 344.0,
+            "y2": 514.0
+          },
+          "err_cm": 28.7,
+          "iou": 0.0,
+          "dx": -44,
+          "dy": 214,
+          "footprint_m": [
+            0.022,
+            0.063
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "banana",
+            "x1": 444.0,
+            "y1": 314.0,
+            "x2": 514.0,
+            "y2": 344.0
+          },
+          "err_cm": 17.6,
+          "iou": 0.0,
+          "dx": 106,
+          "dy": 64,
+          "footprint_m": [
+            0.075,
+            0.052
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 7,
+      "target": "banana",
+      "method": "find",
+      "mode": "square",
+      "raw": "[\n  {\"box_2d\": [324, 314, 362, 342], \"label\": \"banana\"}\n]",
+      "row": {
+        "scene": 7,
+        "target": "banana",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 3.5,
+        "raw": "[\n  {\"box_2d\": [324, 314, 362, 342], \"label\": \"banana\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "banana",
+            "x1": 314.0,
+            "y1": 324.0,
+            "x2": 342.0,
+            "y2": 362.0
+          },
+          "err_cm": 5.1,
+          "iou": 0.0,
+          "dx": -45,
+          "dy": 20,
+          "footprint_m": [
+            0.032,
+            0.109
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "banana",
+            "x1": 324.0,
+            "y1": 314.0,
+            "x2": 362.0,
+            "y2": 342.0
+          },
+          "err_cm": 3.6,
+          "iou": 0.03,
+          "dx": -30,
+          "dy": 5,
+          "footprint_m": [
+            0.047,
+            0.09
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 7,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "raw": "[\n  {\"box_2d\": [494, 612, 834, 1000], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 7,
+        "target": "box",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 3.7,
+        "raw": "[\n  {\"box_2d\": [494, 612, 834, 1000], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 612.0,
+            "y1": 494.0,
+            "x2": 1000.0,
+            "y2": 834.0
+          },
+          "err_cm": 0.0,
+          "iou": 0.6,
+          "dx": -70,
+          "dy": -36,
+          "footprint_m": [
+            0.187,
+            0.173
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 494.0,
+            "y1": 612.0,
+            "x2": 834.0,
+            "y2": 1000.0
+          },
+          "err_cm": 3.4,
+          "iou": 0.2,
+          "dx": -212,
+          "dy": 106,
+          "footprint_m": [
+            0.137,
+            0.138
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 7,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "raw": "[\n  {\"box_2d\": [493, 614, 814, 1000], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 7,
+        "target": "box",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 3.6,
+        "raw": "[\n  {\"box_2d\": [493, 614, 814, 1000], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 614.0,
+            "y1": 493.0,
+            "x2": 1000.0,
+            "y2": 814.0
+          },
+          "err_cm": 0.0,
+          "iou": 0.63,
+          "dx": -69,
+          "dy": 4,
+          "footprint_m": [
+            0.169,
+            0.2
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 493.0,
+            "y1": 614.0,
+            "x2": 814.0,
+            "y2": 1000.0
+          },
+          "err_cm": 4.9,
+          "iou": 0.13,
+          "dx": -223,
+          "dy": 157,
+          "footprint_m": null,
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 8,
+      "target": "banana",
+      "method": "find",
+      "mode": "native",
+      "raw": "[\n  {\"box_2d\": [296, 634, 381, 684], \"label\": \"banana\"}\n]",
+      "row": {
+        "scene": 8,
+        "target": "banana",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 3.5,
+        "raw": "[\n  {\"box_2d\": [296, 634, 381, 684], \"label\": \"banana\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "banana",
+            "x1": 634.0,
+            "y1": 296.0,
+            "x2": 684.0,
+            "y2": 381.0
+          },
+          "err_cm": 27.7,
+          "iou": 0.0,
+          "dx": -16,
+          "dy": 120,
+          "footprint_m": [
+            0.049,
+            0.14
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "banana",
+            "x1": 296.0,
+            "y1": 634.0,
+            "x2": 381.0,
+            "y2": 684.0
+          },
+          "err_cm": 66.2,
+          "iou": 0.0,
+          "dx": -336,
+          "dy": 441,
+          "footprint_m": [
+            0.049,
+            0.025
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 8,
+      "target": "banana",
+      "method": "find",
+      "mode": "square",
+      "raw": "[\n  {\"box_2d\": [284, 614, 323, 642], \"label\": \"banana\"}\n]",
+      "row": {
+        "scene": 8,
+        "target": "banana",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 3.7,
+        "raw": "[\n  {\"box_2d\": [284, 614, 323, 642], \"label\": \"banana\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "banana",
+            "x1": 614.0,
+            "y1": 284.0,
+            "x2": 642.0,
+            "y2": 323.0
+          },
+          "err_cm": 9.6,
+          "iou": 0.0,
+          "dx": -47,
+          "dy": 15,
+          "footprint_m": [
+            0.038,
+            0.156
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "banana",
+            "x1": 284.0,
+            "y1": 614.0,
+            "x2": 323.0,
+            "y2": 642.0
+          },
+          "err_cm": 67.7,
+          "iou": 0.0,
+          "dx": -371,
+          "dy": 339,
+          "footprint_m": [
+            0.022,
+            0.018
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 8,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "raw": "[\n  {\"box_2d\": [612, 0, 784, 253], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 8,
+        "target": "box",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 3.5,
+        "raw": "[\n  {\"box_2d\": [612, 0, 784, 253], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 0.0,
+            "y1": 612.0,
+            "x2": 253.0,
+            "y2": 784.0
+          },
+          "err_cm": 7.9,
+          "iou": 0.0,
+          "dx": 34,
+          "dy": 222,
+          "footprint_m": [
+            0.127,
+            0.078
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 612.0,
+            "y1": 0.0,
+            "x2": 784.0,
+            "y2": 253.0
+          },
+          "err_cm": 110.2,
+          "iou": 0.0,
+          "dx": 606,
+          "dy": -350,
+          "footprint_m": null,
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 8,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "raw": "[\n  {\"box_2d\": [422, 0, 584, 264], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 8,
+        "target": "box",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 3.6,
+        "raw": "[\n  {\"box_2d\": [422, 0, 584, 264], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 0.0,
+            "y1": 422.0,
+            "x2": 264.0,
+            "y2": 584.0
+          },
+          "err_cm": 0.0,
+          "iou": 0.61,
+          "dx": 40,
+          "dy": 21,
+          "footprint_m": [
+            0.167,
+            0.183
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 422.0,
+            "y1": 0.0,
+            "x2": 584.0,
+            "y2": 264.0
+          },
+          "err_cm": null,
+          "iou": 0.0,
+          "dx": 411,
+          "dy": -350,
+          "footprint_m": null,
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 9,
+      "target": "banana",
+      "method": "find",
+      "mode": "native",
+      "raw": "[\n  {\"box_2d\": [333, 413, 383, 433], \"label\": \"banana\"}\n]",
+      "row": {
+        "scene": 9,
+        "target": "banana",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 3.6,
+        "raw": "[\n  {\"box_2d\": [333, 413, 383, 433], \"label\": \"banana\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "banana",
+            "x1": 413.0,
+            "y1": 333.0,
+            "x2": 433.0,
+            "y2": 383.0
+          },
+          "err_cm": 35.9,
+          "iou": 0.0,
+          "dx": -32,
+          "dy": 160,
+          "footprint_m": [
+            0.019,
+            0.075
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "banana",
+            "x1": 333.0,
+            "y1": 413.0,
+            "x2": 383.0,
+            "y2": 433.0
+          },
+          "err_cm": 44.5,
+          "iou": 0.0,
+          "dx": -97,
+          "dy": 225,
+          "footprint_m": [
+            0.043,
+            0.022
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 9,
+      "target": "banana",
+      "method": "find",
+      "mode": "square",
+      "raw": "[\n  {\"box_2d\": [277, 424, 311, 444], \"label\": \"banana\"}\n]",
+      "row": {
+        "scene": 9,
+        "target": "banana",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 3.6,
+        "raw": "[\n  {\"box_2d\": [277, 424, 311, 444], \"label\": \"banana\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "banana",
+            "x1": 424.0,
+            "y1": 277.0,
+            "x2": 444.0,
+            "y2": 311.0
+          },
+          "err_cm": 7.3,
+          "iou": 0.0,
+          "dx": -21,
+          "dy": 21,
+          "footprint_m": [
+            0.028,
+            0.148
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "banana",
+            "x1": 277.0,
+            "y1": 424.0,
+            "x2": 311.0,
+            "y2": 444.0
+          },
+          "err_cm": 44.5,
+          "iou": 0.0,
+          "dx": -161,
+          "dy": 161,
+          "footprint_m": [
+            0.03,
+            0.031
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 9,
+      "target": "box",
+      "method": "find",
+      "mode": "native",
+      "raw": "[\n  {\"box_2d\": [433, 535, 564, 687], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 9,
+        "target": "box",
+        "method": "find",
+        "mode": "native",
+        "visible": true,
+        "llm_s": 3.5,
+        "raw": "[\n  {\"box_2d\": [433, 535, 564, 687], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 535.0,
+            "y1": 433.0,
+            "x2": 687.0,
+            "y2": 564.0
+          },
+          "err_cm": 21.6,
+          "iou": 0.0,
+          "dx": -40,
+          "dy": 211,
+          "footprint_m": [
+            0.105,
+            0.109
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 433.0,
+            "y1": 535.0,
+            "x2": 564.0,
+            "y2": 687.0
+          },
+          "err_cm": 31.1,
+          "iou": 0.0,
+          "dx": -153,
+          "dy": 323,
+          "footprint_m": [
+            0.075,
+            0.087
+          ],
+          "n_boxes": 1
+        }
+      }
+    },
+    {
+      "scene": 9,
+      "target": "box",
+      "method": "find",
+      "mode": "square",
+      "raw": "[\n  {\"box_2d\": [323, 533, 392, 706], \"label\": \"green box\"}\n]",
+      "row": {
+        "scene": 9,
+        "target": "box",
+        "method": "find",
+        "mode": "square",
+        "visible": true,
+        "llm_s": 3.6,
+        "raw": "[\n  {\"box_2d\": [323, 533, 392, 706], \"label\": \"green box\"}\n]",
+        "yxyx": {
+          "box": {
+            "label": "green box",
+            "x1": 533.0,
+            "y1": 323.0,
+            "x2": 706.0,
+            "y2": 392.0
+          },
+          "err_cm": 0.0,
+          "iou": 0.44,
+          "dx": -32,
+          "dy": 17,
+          "footprint_m": [
+            0.181,
+            0.178
+          ],
+          "n_boxes": 1
+        },
+        "xyxy": {
+          "box": {
+            "label": "green box",
+            "x1": 323.0,
+            "y1": 533.0,
+            "x2": 392.0,
+            "y2": 706.0
+          },
+          "err_cm": 37.0,
+          "iou": 0.0,
+          "dx": -294,
+          "dy": 279,
+          "footprint_m": [
+            0.035,
+            0.117
+          ],
+          "n_boxes": 1
+        }
+      }
+    }
+  ]
+}

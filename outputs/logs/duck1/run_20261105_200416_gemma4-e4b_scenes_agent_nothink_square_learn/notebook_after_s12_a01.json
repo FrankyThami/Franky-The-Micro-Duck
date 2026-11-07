@@ -1,0 +1,69 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 3,
+  "n_s": 2,
+  "knowledge": [
+    {
+      "id": "K1",
+      "text": "The beak successfully picks up the banana when the middle is 0.00m from the beak tip and the long side is aligned (+87 degrees).",
+      "source": "scene 12, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-05 20:25:12"
+    },
+    {
+      "id": "K2",
+      "text": "The vision model may fail to find the green box after the initial detection, returning \"no box.",
+      "source": "scene 12, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-05 20:25:12"
+    },
+    {
+      "id": "K3",
+      "text": "The task is incomplete if the green box cannot be visually located after picking up the banana.",
+      "source": "scene 12, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-05 20:25:12"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S1",
+      "text": "To pick up the banana, move until the distance is 0.00m and align the banana's long side with my direction.",
+      "source": "scene 12, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-05 20:25:12"
+    },
+    {
+      "id": "S2",
+      "text": "If the green box is not found, keep searching for it until it is located or the command is explicitly finished.",
+      "source": "scene 12, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-05 20:25:12"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-05 20:21:38",
+      "success": false,
+      "scene": 12,
+      "attempt": 1,
+      "steps": 40,
+      "ended": "max_steps"
+    }
+  ]
+}

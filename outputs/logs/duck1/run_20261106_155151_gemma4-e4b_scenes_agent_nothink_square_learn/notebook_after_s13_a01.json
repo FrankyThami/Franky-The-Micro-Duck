@@ -1,0 +1,69 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 3,
+  "n_s": 2,
+  "knowledge": [
+    {
+      "id": "K1",
+      "text": "Moving forward 0.3m can cause the green box to become invisible in the camera view.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-06 16:08:43"
+    },
+    {
+      "id": "K2",
+      "text": "Turning 180 degrees allows me to re-establish visual contact with the green box if it is lost.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-06 16:08:43"
+    },
+    {
+      "id": "K3",
+      "text": "The beak successfully picks up the banana if its long side is within 87 degrees of lying across my beak.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-06 16:08:43"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S1",
+      "text": "If the target is lost after moving, turn around 180 degrees to try and find it again.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-06 16:08:43"
+    },
+    {
+      "id": "S2",
+      "text": "Use measure() to confirm the exact distance and bearing of the target before attempting to drop the banana.",
+      "source": "scene 13, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-06 16:08:43"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-06 16:05:29",
+      "success": false,
+      "scene": 13,
+      "attempt": 1,
+      "steps": 39,
+      "ended": "max_steps"
+    }
+  ]
+}

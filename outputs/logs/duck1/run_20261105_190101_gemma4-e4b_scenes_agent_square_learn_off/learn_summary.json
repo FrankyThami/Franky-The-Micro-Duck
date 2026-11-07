@@ -1,0 +1,20 @@
+[
+  {
+    "scene": 12,
+    "name": "close-start",
+    "attempts": 1,
+    "solved": false,
+    "solved_at": null,
+    "results": [
+      {
+        "success": false,
+        "steps": 18,
+        "ended": "guard_loop",
+        "failed_effects": 8,
+        "llm_s": 903.3,
+        "walks": 7,
+        "close_beaks": 5
+      }
+    ]
+  }
+]

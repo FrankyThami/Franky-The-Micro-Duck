@@ -1,0 +1,13 @@
+{
+  "run_id": "run_20261104_101941_gemma4-e2b_test_mem-on",
+  "episodes": 3,
+  "successes": 3,
+  "success_rate": 1.0,
+  "false_claims": 0,
+  "missed_goals": 5,
+  "loop_flags": 0,
+  "guard_actions": 0,
+  "mean_steps": 9.33,
+  "mean_llm_s": 26.5,
+  "mean_sim_s": 24.2
+}

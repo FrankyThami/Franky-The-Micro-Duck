@@ -1,0 +1,13 @@
+{
+  "run_id": "run_20261104_114345_rules_scenes",
+  "episodes": 10,
+  "successes": 9,
+  "success_rate": 0.9,
+  "false_claims": 0,
+  "missed_goals": 16,
+  "loop_flags": 14,
+  "guard_actions": 0,
+  "mean_steps": 7.0,
+  "mean_llm_s": 0.0,
+  "mean_sim_s": 18.5
+}

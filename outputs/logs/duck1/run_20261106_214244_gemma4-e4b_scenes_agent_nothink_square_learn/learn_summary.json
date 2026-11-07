@@ -1,0 +1,65 @@
+[
+  {
+    "scene": 13,
+    "name": "carry-start",
+    "attempts": 6,
+    "solved": false,
+    "solved_at": null,
+    "results": [
+      {
+        "success": false,
+        "steps": 31,
+        "ended": "guard_failures",
+        "failed_effects": 18,
+        "llm_s": 779.6,
+        "walks": 6,
+        "close_beaks": 4
+      },
+      {
+        "success": false,
+        "steps": 12,
+        "ended": "no_tool_calls",
+        "failed_effects": 5,
+        "llm_s": 297.0,
+        "walks": 2,
+        "close_beaks": 1
+      },
+      {
+        "success": false,
+        "steps": 18,
+        "ended": "guard_loop",
+        "failed_effects": 8,
+        "llm_s": 515.6,
+        "walks": 4,
+        "close_beaks": 1
+      },
+      {
+        "success": false,
+        "steps": 30,
+        "ended": "done",
+        "failed_effects": 12,
+        "llm_s": 811.7,
+        "walks": 5,
+        "close_beaks": 0
+      },
+      {
+        "success": false,
+        "steps": 10,
+        "ended": "done",
+        "failed_effects": 6,
+        "llm_s": 222.4,
+        "walks": 0,
+        "close_beaks": 0
+      },
+      {
+        "success": false,
+        "steps": 36,
+        "ended": "guard_stalled",
+        "failed_effects": 15,
+        "llm_s": 1003.8,
+        "walks": 8,
+        "close_beaks": 2
+      }
+    ]
+  }
+]

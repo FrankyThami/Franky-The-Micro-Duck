@@ -1,0 +1,237 @@
+{
+  "N0": {
+    "name": "blue-in-the-way",
+    "task": "Put the banana into the green box.",
+    "goal": "green_only",
+    "bananas": [
+      {
+        "xy": [
+          0.12,
+          0.15
+        ]
+      }
+    ],
+    "green": [
+      0.46,
+      -0.08
+    ],
+    "blue": [
+      0.26,
+      -0.02
+    ],
+    "note": "the blue box lies between the banana and the green box"
+  },
+  "N1": {
+    "name": "swapped-sides",
+    "task": "Put the banana into the green box.",
+    "goal": "green_only",
+    "bananas": [
+      {
+        "xy": [
+          0.12,
+          -0.15
+        ]
+      }
+    ],
+    "green": [
+      0.46,
+      0.08
+    ],
+    "blue": [
+      0.26,
+      0.02
+    ],
+    "note": "mirror image of N0"
+  },
+  "N2": {
+    "name": "blue-by-banana",
+    "task": "Put the banana into the green box.",
+    "goal": "green_only",
+    "bananas": [
+      {
+        "xy": [
+          0.2,
+          0.0
+        ]
+      }
+    ],
+    "green": [
+      0.38,
+      -0.3
+    ],
+    "blue": [
+      0.2,
+      0.2
+    ],
+    "note": "the blue box is right next to the banana, the green box is far away"
+  },
+  "N3": {
+    "name": "green-out-of-sight",
+    "task": "Put the banana into the green box.",
+    "goal": "green_only",
+    "duck": [
+      0.0,
+      0.0
+    ],
+    "yaw": 0.0,
+    "bananas": [
+      {
+        "xy": [
+          0.25,
+          0.15
+        ]
+      }
+    ],
+    "green": [
+      -0.3,
+      -0.2
+    ],
+    "blue": [
+      0.28,
+      -0.15
+    ],
+    "note": "the green box is behind the duck, the blue box is in view in front"
+  },
+  "N4": {
+    "name": "two-bananas",
+    "task": "Put the banana into the green box.",
+    "goal": "any_green",
+    "bananas": [
+      {
+        "xy": [
+          0.18,
+          0.18
+        ]
+      },
+      {
+        "xy": [
+          0.28,
+          -0.2
+        ]
+      }
+    ],
+    "green": [
+      0.38,
+      0.0
+    ],
+    "blue": null,
+    "note": "two bananas, 'the banana': which one does it take, does it stop?"
+  },
+  "N5": {
+    "name": "take-both",
+    "task": "Put ALL the bananas into the green box.",
+    "goal": "all_green",
+    "bananas": [
+      {
+        "xy": [
+          0.18,
+          0.18
+        ]
+      },
+      {
+        "xy": [
+          0.28,
+          -0.2
+        ]
+      }
+    ],
+    "green": [
+      0.38,
+      0.0
+    ],
+    "blue": null,
+    "note": "same layout as N4, but the task says ALL the bananas"
+  },
+  "N6": {
+    "name": "banana-in-blue",
+    "task": "Put the banana that lies on the table into the green box. Do not touch the blue box or what is in it.",
+    "goal": "leave_blue",
+    "bananas": [
+      {
+        "xy": [
+          0.15,
+          0.2
+        ]
+      },
+      {
+        "xy": [
+          0.25,
+          -0.2
+        ]
+      }
+    ],
+    "green": [
+      0.38,
+      0.12
+    ],
+    "blue": [
+      0.25,
+      -0.2
+    ],
+    "note": "one banana is already in the blue box: leave it there"
+  },
+  "N7": {
+    "name": "already-done",
+    "task": "Put the banana into the green box.",
+    "goal": "stay_done",
+    "bananas": [
+      {
+        "xy": [
+          0.25,
+          -0.15
+        ]
+      }
+    ],
+    "green": [
+      0.25,
+      -0.15
+    ],
+    "blue": null,
+    "note": "the banana is already in the green box: look, then say done, move nothing"
+  },
+  "N8": {
+    "name": "no-banana",
+    "task": "Put the banana into the green box.",
+    "goal": "none_exist",
+    "bananas": [],
+    "green": [
+      0.25,
+      -0.2
+    ],
+    "blue": [
+      0.25,
+      0.2
+    ],
+    "note": "there is no banana anywhere: search, then give up, do not fall"
+  },
+  "N9": {
+    "name": "crowded",
+    "task": "Put ALL the bananas into the green box.",
+    "goal": "all_green",
+    "bananas": [
+      {
+        "xy": [
+          0.1,
+          -0.22
+        ],
+        "yaw": 90
+      },
+      {
+        "xy": [
+          0.28,
+          -0.18
+        ],
+        "yaw": 90
+      }
+    ],
+    "green": [
+      0.38,
+      0.02
+    ],
+    "blue": [
+      0.2,
+      0.26
+    ],
+    "note": "two bananas and both boxes close together (the bananas lie across the duck's way)"
+  }
+}

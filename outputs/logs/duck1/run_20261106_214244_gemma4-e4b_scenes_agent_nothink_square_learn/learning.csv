@@ -1,0 +1,7 @@
+﻿scene,scene_name,attempt,success,steps,ended,walks,turns,close_beaks,finds,failed_effects,llm_s,wall_s,notes_shown,reflect_s,reflect_mode,added,merged,forgotten,forget_refused,evicted,rejected,verdict
+13,carry-start,1,False,31,guard_failures,6,3,4,9,18,779.6,801.4,,198.6,lines,K1 K2 K3 S1 S2,,,,,0,The person says: the banana is NOT in the green box. The banana fell off the table.
+13,carry-start,2,False,12,no_tool_calls,2,0,1,4,5,297.0,306.0,K1 K2 K3 S1 S2,178.1,lines,K4 K5 K6 S3 S4,,S2,,,0,The person says: the banana is NOT in the green box. The banana lies on the table.
+13,carry-start,3,False,18,guard_loop,4,1,1,5,8,515.6,520.3,K1 K2 K3 K4 K5 K6 S1 S3 S4,178.9,lines,K7 K8 S5,K5 S4,,,,0,The person says: the banana is NOT in the green box. You are still holding the banana.
+13,carry-start,4,False,30,done,5,2,0,11,12,811.7,827.7,K1 K2 K3 K4 K5 K6 K7 K8 S1 S3 S4 S5,197.7,lines,K9 S6,,,K5,,1,"The person says: the banana is NOT in the green box. The banana lies on the table. You said you had finished, but you ha"
+13,carry-start,5,False,10,done,0,0,0,3,6,222.4,222.5,K1 K2 K3 K4 K5 K6 K7 K8 K9 S1 S3 S4 S5 S6,183.1,lines,K10 K11 S7 S8,,,,K1 S1,0,"The person says: the banana is NOT in the green box. You are still holding the banana. You said you had finished, but yo"
+13,carry-start,6,False,36,guard_stalled,8,3,2,7,15,1003.8,1024.7,K2 K3 K4 K5 K6 K7 K8 K9 K10 K11 S3 S4 S5 S6 S7 S8,232.9,lines,K12 K13 S9 S10,K7,,K10 K11,K2 K3 S3 S5,2,The person says: the banana is NOT in the green box. The banana fell off the table.

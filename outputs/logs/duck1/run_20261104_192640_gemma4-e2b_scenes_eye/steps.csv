@@ -1,0 +1,1 @@
+﻿run_id,episode,seed,step,tool,args,tool_ok,effect_ok,expected,actual,loop,unexpected,external,changes,guard,result,llm_s,prompt_tokens,gen_tokens,prompt_eval_ms,gen_ms,done_reason,sim_s,t_sim,t_run,holding_before,holding_after,banana_in_box,banana_x,banana_y,banana_z,duck_x,duck_y,duck_yaw_deg,tilt_deg,fallen,off_table,box_x,box_y,panel_text

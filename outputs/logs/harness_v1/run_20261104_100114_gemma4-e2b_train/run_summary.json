@@ -1,0 +1,13 @@
+{
+  "run_id": "run_20261104_100114_gemma4-e2b_train",
+  "episodes": 5,
+  "successes": 5,
+  "success_rate": 1.0,
+  "false_claims": 0,
+  "missed_goals": 10,
+  "loop_flags": 0,
+  "guard_actions": 0,
+  "mean_steps": 9.8,
+  "mean_llm_s": 27.4,
+  "mean_sim_s": 23.9
+}

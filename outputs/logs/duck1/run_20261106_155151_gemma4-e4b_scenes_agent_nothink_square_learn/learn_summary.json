@@ -1,0 +1,146 @@
+[
+  {
+    "scene": 13,
+    "name": "carry-start",
+    "attempts": 4,
+    "solved": true,
+    "solved_at": 4,
+    "results": [
+      {
+        "success": false,
+        "steps": 39,
+        "ended": "max_steps",
+        "failed_effects": 13,
+        "llm_s": 763.2,
+        "walks": 8,
+        "close_beaks": 2
+      },
+      {
+        "success": false,
+        "steps": 13,
+        "ended": "done",
+        "failed_effects": 7,
+        "llm_s": 194.4,
+        "walks": 2,
+        "close_beaks": 0
+      },
+      {
+        "success": false,
+        "steps": 30,
+        "ended": "done",
+        "failed_effects": 15,
+        "llm_s": 424.3,
+        "walks": 4,
+        "close_beaks": 0
+      },
+      {
+        "success": true,
+        "steps": 24,
+        "ended": "done",
+        "failed_effects": 6,
+        "llm_s": 447.9,
+        "walks": 6,
+        "close_beaks": 1
+      }
+    ]
+  },
+  {
+    "scene": 12,
+    "name": "close-start",
+    "attempts": 3,
+    "solved": true,
+    "solved_at": 3,
+    "results": [
+      {
+        "success": false,
+        "steps": 21,
+        "ended": "done",
+        "failed_effects": 7,
+        "llm_s": 326.6,
+        "walks": 2,
+        "close_beaks": 1
+      },
+      {
+        "success": false,
+        "steps": 40,
+        "ended": "max_steps",
+        "failed_effects": 12,
+        "llm_s": 790.2,
+        "walks": 7,
+        "close_beaks": 3
+      },
+      {
+        "success": true,
+        "steps": 30,
+        "ended": "done",
+        "failed_effects": 6,
+        "llm_s": 700.6,
+        "walks": 6,
+        "close_beaks": 3
+      }
+    ]
+  },
+  {
+    "scene": 10,
+    "name": "across-left",
+    "attempts": 6,
+    "solved": false,
+    "solved_at": null,
+    "results": [
+      {
+        "success": false,
+        "steps": 40,
+        "ended": "max_steps",
+        "failed_effects": 17,
+        "llm_s": 713.4,
+        "walks": 6,
+        "close_beaks": 1
+      },
+      {
+        "success": false,
+        "steps": 40,
+        "ended": "max_steps",
+        "failed_effects": 18,
+        "llm_s": 857.1,
+        "walks": 10,
+        "close_beaks": 8
+      },
+      {
+        "success": false,
+        "steps": 29,
+        "ended": "guard_loop",
+        "failed_effects": 11,
+        "llm_s": 593.2,
+        "walks": 6,
+        "close_beaks": 1
+      },
+      {
+        "success": false,
+        "steps": 39,
+        "ended": "max_steps",
+        "failed_effects": 9,
+        "llm_s": 801.6,
+        "walks": 8,
+        "close_beaks": 5
+      },
+      {
+        "success": false,
+        "steps": 40,
+        "ended": "max_steps",
+        "failed_effects": 12,
+        "llm_s": 801.8,
+        "walks": 9,
+        "close_beaks": 0
+      },
+      {
+        "success": false,
+        "steps": 40,
+        "ended": "max_steps",
+        "failed_effects": 11,
+        "llm_s": 798.9,
+        "walks": 10,
+        "close_beaks": 2
+      }
+    ]
+  }
+]

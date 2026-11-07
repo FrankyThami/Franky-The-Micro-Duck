@@ -1,0 +1,153 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 8,
+  "n_s": 5,
+  "knowledge": [
+    {
+      "id": "K2",
+      "text": "The vision model often fails to locate the green box, even when it is visible in the environment.",
+      "source": "scene 10, attempt 1",
+      "seen": 1,
+      "tries": 3,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-05 17:56:30"
+    },
+    {
+      "id": "K4",
+      "text": "Requesting a 0-degree turn may result in unintended movement, such as turning 3 degrees left when asked to turn 0 degrees.",
+      "source": "scene 10, attempt 2",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 4,
+      "added": "2026-11-05 18:05:28"
+    },
+    {
+      "id": "K5",
+      "text": "The vision model failed to find targets in pictures #23, #24, and #25, even when targets were previously located.",
+      "source": "scene 10, attempt 2",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 5,
+      "added": "2026-11-05 18:05:28"
+    },
+    {
+      "id": "K6",
+      "text": "Measurement fails if the target coordinates are outside the camera's visible Y range (125 to 875).",
+      "source": "scene 10, attempt 3",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 6,
+      "added": "2026-11-05 18:25:20"
+    },
+    {
+      "id": "K7",
+      "text": "Repeated attempts to pick up the banana failed because the distance was consistently greater than 0.10 m from the beak tip.",
+      "source": "scene 10, attempt 3",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 7,
+      "added": "2026-11-05 18:25:20"
+    },
+    {
+      "id": "K8",
+      "text": "The vision model frequently fails to locate targets in later pictures, even if they were found previously.",
+      "source": "scene 10, attempt 3",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 8,
+      "added": "2026-11-05 18:25:20"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S1",
+      "text": "To pick up, align closely and ensure the banana is within 0.05 m of the beak tip before closing.",
+      "source": "scene 10, attempt 1",
+      "seen": 1,
+      "tries": 3,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-05 17:56:30"
+    },
+    {
+      "id": "S2",
+      "text": "If the vision model fails to find a target, rely on the last known coordinates or visual confirmation.",
+      "source": "scene 10, attempt 1",
+      "seen": 2,
+      "tries": 3,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-05 17:56:30"
+    },
+    {
+      "id": "S3",
+      "text": "When making fine adjustments, be aware that requested turn values may not match the executed turn.",
+      "source": "scene 10, attempt 2",
+      "seen": 1,
+      "tries": 2,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-05 18:05:28"
+    },
+    {
+      "id": "S4",
+      "text": "To successfully pick up the banana, the distance must be less than 0.05 m from the beak tip.",
+      "source": "scene 10, attempt 3",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 4,
+      "added": "2026-11-05 18:25:20"
+    },
+    {
+      "id": "S5",
+      "text": "When requesting a turn, the executed turn may be significantly different from the requested value (e.g., 0 degrees requested resulted in 3 degrees left).",
+      "source": "scene 10, attempt 3",
+      "seen": 1,
+      "tries": 1,
+      "wins": 0,
+      "order": 5,
+      "added": "2026-11-05 18:25:20"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-05 17:53:27",
+      "success": false,
+      "scene": 10,
+      "attempt": 1,
+      "steps": 40,
+      "ended": "max_steps"
+    },
+    {
+      "time": "2026-11-05 18:02:28",
+      "success": false,
+      "scene": 10,
+      "attempt": 2,
+      "steps": 17,
+      "ended": "no_tool_calls"
+    },
+    {
+      "time": "2026-11-05 18:20:52",
+      "success": false,
+      "scene": 10,
+      "attempt": 3,
+      "steps": 40,
+      "ended": "max_steps"
+    },
+    {
+      "time": "2026-11-05 18:37:26",
+      "success": false,
+      "scene": 10,
+      "attempt": 4,
+      "steps": 32,
+      "ended": "guard_stalled"
+    }
+  ]
+}

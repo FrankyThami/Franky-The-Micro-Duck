@@ -1,0 +1,8 @@
+# the packages the project uses (tested with mujoco 3.17, onnxruntime 1.x, python 3.12)
+mujoco
+numpy
+onnxruntime
+better-actuator-models      # provides "bam", the BAM servo model used by sim/duck_sim.py
+imageio                     # video recording (--record)
+imageio-ffmpeg
+pillow                      # the text in the video footer

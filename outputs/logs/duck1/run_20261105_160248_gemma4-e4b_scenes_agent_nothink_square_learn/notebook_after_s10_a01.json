@@ -1,0 +1,69 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 3,
+  "n_s": 2,
+  "knowledge": [
+    {
+      "id": "K1",
+      "text": "The beak did not take the banana when the distance was more than 0.10 m from the beak tip (Steps 6, 9, 13).",
+      "source": "scene 10, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-05 16:16:37"
+    },
+    {
+      "id": "K2",
+      "text": "Walking forward 0.2 m (Step 20) was refused because it would run into the box rim.",
+      "source": "scene 10, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-05 16:16:37"
+    },
+    {
+      "id": "K3",
+      "text": "Moving and turning does not guarantee the target objects will be visible in subsequent pictures (Steps 17, 19, 22).",
+      "source": "scene 10, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-05 16:16:37"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S1",
+      "text": "To pick up the banana, ensure the distance is less than 0.10 m from the beak tip.",
+      "source": "scene 10, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-05 16:16:37"
+    },
+    {
+      "id": "S2",
+      "text": "When searching for objects after moving, look carefully to confirm visibility before assuming they are gone.",
+      "source": "scene 10, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-05 16:16:37"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-05 16:13:31",
+      "success": false,
+      "scene": 10,
+      "attempt": 1,
+      "steps": 32,
+      "ended": "done"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "note": "Franky's notebook. Written by the duck itself (the model's weights never change). tries = attempts the note was shown in, wins = how many of those succeeded.",
+  "n_k": 3,
+  "n_s": 2,
+  "knowledge": [
+    {
+      "id": "K1",
+      "text": "The beak only takes the banana if its middle is within 7 cm of the beak tip.",
+      "source": "scene 12, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-06 23:58:28"
+    },
+    {
+      "id": "K2",
+      "text": "The banana's long side must be within 30 degrees of lying across the beak for the beak to grab it.",
+      "source": "scene 12, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-06 23:58:28"
+    },
+    {
+      "id": "K3",
+      "text": "Attempts failed even when the banana was 0.09 m away (Step 9), showing distance alone is insufficient for a grab.",
+      "source": "scene 12, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 3,
+      "added": "2026-11-06 23:58:28"
+    }
+  ],
+  "skills": [
+    {
+      "id": "S1",
+      "text": "Approach the banana until it is within 7 cm and oriented across the beak (within 30 degrees) before closing the beak.",
+      "source": "scene 12, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 1,
+      "added": "2026-11-06 23:58:28"
+    },
+    {
+      "id": "S2",
+      "text": "Always verify the banana's orientation relative to the beak tip before attempting to pick it up.",
+      "source": "scene 12, attempt 1",
+      "seen": 1,
+      "tries": 0,
+      "wins": 0,
+      "order": 2,
+      "added": "2026-11-06 23:58:28"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-06 23:55:15",
+      "success": false,
+      "scene": 12,
+      "attempt": 1,
+      "steps": 39,
+      "ended": "max_steps"
+    }
+  ]
+}
